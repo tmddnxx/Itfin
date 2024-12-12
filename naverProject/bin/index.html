@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>naverProject</title>
+	<link rel="stylesheet" href="Framework/afc/style/afc.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/comp.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/basicStyle.css"/>
+	<link rel="stylesheet" href="Framework/afc/style/jquery-ui.css"/>
+
+	<link rel="stylesheet" href="Template/naverProjectApp_global.css"/>
+	<link rel="stylesheet" href="Template/tabViewStyle.css"/>
+	<link rel="stylesheet" href="Template/before.css"/>
+	<link rel="stylesheet" href="Template/is_expanded.css"/>
+	<link rel="stylesheet" href="Template/btnOver.css"/>
+	<link rel="stylesheet" href="Template/slideText.css"/>
+
+	<script>
+	//Electron 과 추가 라이브러리(예, jQuery 등) 와의 충돌 방지
+	window.nodeRequire = window.require;
+	delete window.require;
+	delete window.exports;
+    delete window.module;
+
+var PROJECT_OPTION = 
+{
+    "build": {
+        "bridgeName": "none",
+        "frwLoadOption": "inTimeLoad",
+        "subName": ""
+    },
+    "general": {
+        "autoScale": false,
+        "phoneDocWidth": 0,
+        "tabletDocWidth": 0,
+        "queryFormat": "qry",
+        "scaleVal": 1,
+        "userScalable": false,
+        "localizing": "",
+        "responsiveTest": "",
+        "tabletMinWidth": 500
+    },
+    "unitUrl": ""
+};
+    </script>
+
+	<script defer src="Framework/afc/library/jquery-core.js"></script>
+	<script defer src="Framework/afc/library/jquery-ui.js"></script>
+	<script defer src="Framework/afc/library/jquery.ui.touch-punch.js"></script>
+	<script defer src="Framework/afc/library/ARect.js"></script>
+	<script defer src="Framework/afc/library/AUtil.js"></script>
+	<script defer src="Framework/afc/library/afc.js"></script>
+	<script defer src="Framework/afc/library/TabKeyController.js"></script>
+	<script defer src="Framework/afc/library/PosUtil.js"></script>
+	<script defer src="Framework/afc/component/AComponent.js"></script>
+	<script defer src="Framework/afc/component/AView.js"></script>
+	<script defer src="Framework/afc/component/AFloat.js"></script>
+	<script defer src="Framework/afc/component/AContainer.js"></script>
+	<script defer src="Framework/afc/component/AWindow.js"></script>
+	<script defer src="Framework/afc/component/APage.js"></script>
+	<script defer src="Framework/afc/component/AApplication.js"></script>
+	<script defer src="Framework/afc/event/AEvent.js"></script>
+
+	
+
+	<script defer src="Source/naverProjectApp.js"></script>
+
+</head>
+<body class="_global_style_ global_resp">
+</body>
+</html>

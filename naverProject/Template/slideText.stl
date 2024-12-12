@@ -1,0 +1,6 @@
+{
+  "styleName": "slideText",
+  "items": {
+    "slide_text": "\n.slide_text\n{\t\n\tfont-size : 13pt;\n\tposition: absolute;\n    width: 100%;\n\theight: 100%;\n\ttransform : translateY(100%);\n    transition: opacity 1s ease, transform 1s ease;\n\ttext-overflow : ellipsis;\n\twhite-space: nowrap;\n}\n\n.visible{\n\t\n\topacity : 1;\n\ttransform: translate(0);\n}\n\n.hidden {\n\topacity : 0;\n\ttransform: translatey(-100%);\n}\n"
+  }
+}

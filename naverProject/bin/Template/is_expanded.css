@@ -1,0 +1,16 @@
+
+.is_expanded
+{
+	height: 335px !important;
+	position: absolute !important;
+	width: 706px !important;
+	margin: 0px auto !important;
+	border-radius: 8px !important;
+	box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 4px 8px 0px !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	z-index: 100 !important;
+	left: 50% !important;
+	transform: translate(-50%) !important;
+	top: 125px !important;
+}
+

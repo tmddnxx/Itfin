@@ -1,0 +1,18 @@
+
+.btnOver
+{
+	background-color: rgba(235,235,235,0.7) !important;
+	color:rgb(53,53,53) !important; 
+	 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.newsOver
+{
+	background-color : blue !important;
+	color : white !important;
+	font-size: 13px !important;
+}
+.labelOver:hover{
+	text-decoration: underline !important;
+}
+

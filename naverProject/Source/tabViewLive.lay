@@ -1,0 +1,145 @@
+<div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; background-color: rgba(202, 179, 179, 0); position: relative; display: block; left: 0px; height: 460px; top: 0px; margin-left: 0px; line-height: 20px; margin-top: 0px;" id="AView--tabViewLive" data-browser-height="760" data-browser-width="780" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AImage&quot;,&quot;AFlexLayout&quot;]}">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; background-color: rgb(255, 255, 255); height: 100%; margin-top: 0px; margin-left: 0px; top: 0px; left: 0px;">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 60px; position: relative; left: 0px; background-color: rgb(245, 247, 248); border-radius: 4px; padding: 12px 20px; color: rgb(64, 64, 64); text-align: left; line-height: 40px; margin-left: 0px; display: flex; align-items: center; justify-content: space-between;" id="AView--c_one_today">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; left: 0px; top: 0px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 0px; display: flex; align-items: center; justify-content: space-between; width: 75%;">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; font-weight: bold;">네쇼라Pick</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">패션</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-top: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">뷰티</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">푸드</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">라이프/테크</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; color: rgba(16, 16, 16, 0.55);" data-style="">키즈</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; color: rgba(16, 16, 16, 0.55);" data-style="">취미/여행/문화</label>
+            </div>
+            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; color: rgb(0, 0, 0); float: right; margin-left: 0px; display: inline; font-weight: bold;" data-style="">쇼핑라이브 홈</label>
+        </div>
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 378px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 20px; margin-left: 0px; display: flex; justify-content: space-between;" id="AView--c_live_container">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 200px; height: 100%; position: relative; margin-top: 0px; margin-right: 20px;" id="AView--c_live_ad">
+                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;" src="Assets/naver/video_ad.png">
+            </div>
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 320px; height: 100%; position: relative; flex-wrap: wrap; background-color: rgba(0, 0, 0, 0); float: left; place-content: space-between flex-start; align-items: stretch; left: 0px; top: 0px; overflow: visible;" id="AView--one_left_container">
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 5px 0px;" class="">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; position: relative; width: 90px; background-color: rgba(0, 0, 0, 0); height: 171px;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 90px; height: 125px; position: relative; border-radius: 5px;" src="Assets/naver/Live_ad1.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); padding-top: 5px;">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; top: 5px; text-overflow: ellipsis; height: 50px;">
+                                <b>패밀리어워즈 역대급 특가</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 5px; top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 38px; height: auto; position: relative; padding: 0px 6px; border-radius: 12px; font-weight: 700; color: white; font-size: 12px; background-color: rgb(255, 0, 0);">LIVE</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 10px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 171px; left: 0px; top: 0px; position: relative; width: 90px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 90px; height: 125px; position: relative; border-radius: 5px;" src="Assets/naver/Live_ad1.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; top: 5px; text-overflow: ellipsis; height: 50px;">
+                                <b>패밀리어워즈 역대급 특가</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 5px; top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 38px; height: auto; position: relative; padding: 0px 6px; border-radius: 12px; font-weight: 700; color: white; font-size: 12px; background-color: rgb(255, 0, 0);">LIVE</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 10px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 171px; left: 0px; top: 0px; position: relative; width: 90px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 90px; height: 125px; position: relative; border-radius: 5px;" src="Assets/naver/Live_ad1.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; top: 5px; text-overflow: ellipsis; height: 50px;">
+                                <b>패밀리어워즈 역대급 특가</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 5px; top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 12px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73);">어제인기</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 0px 0px;" class="">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 171px; left: 0px; top: 0px; position: relative; width: 90px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 90px; height: 125px; position: relative; border-radius: 5px;" src="Assets/naver/Live_ad1.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; top: 5px; text-overflow: ellipsis; height: 50px;">
+                                <b>패밀리어워즈 역대급 특가</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 5px; top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 12px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73);">오늘인기</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 0px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 171px; left: 0px; top: 0px; position: relative; width: 90px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 90px; height: 125px; position: relative; border-radius: 5px;" src="Assets/naver/Live_ad1.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; top: 5px; text-overflow: ellipsis; height: 50px;">
+                                <b>패밀리어워즈 역대급 특가</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 5px; top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 12px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73);">오늘인기</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 0px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 171px; left: 0px; top: 0px; position: relative; width: 90px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 90px; height: 125px; position: relative; border-radius: 5px;" src="Assets/naver/Live_ad1.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; top: 5px; text-overflow: ellipsis; height: 50px;">
+                                <b>패밀리어워즈 역대급 특가</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 5px; top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 12px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73);">오늘인기</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; width: 1px; top: 0px; float : left;"></div>
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 100%; position: relative; flex-direction: column; float: right; width: 250px; padding-left: 20px; justify-content: space-between; overflow: visible;" id="AView--one_right_container">
+                <div style="position: relative; box-sizing: border-box;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 40px; margin : 0 auto; position: relative; background-color: rgb(255, 255, 214); display: flex; align-content: center; justify-content: space-between; padding: 0 10px">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; margin : auto 0; color: rgb(0, 0, 0); position: relative; float: left;">
+                            <b>추천핫딜</b>
+                        </label>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="border-radius: 4px; line-height: 18px; width: 30px; margin : auto 0; position: relative; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); text-align: center; float: right; height: 20px;">AD</label>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box;" class="">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 92px; margin-top: 10px; margin-right: 0px; margin-left: 0px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: space-between; align-items: center;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 92px; height: 92px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 4px; float: left;" src="Assets/naver/89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; position: relative; display: block;">빅사이즈FW신상! 넉넉해서 다편해~</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; color: rgb(255, 0, 0); font-weight: bold; position: relative; display: block;">32,900원</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 92px; margin-top: 10px; margin-right: 0px; margin-left: 0px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: space-between; align-items: center;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 92px; height: 92px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 4px; float: left;" src="Assets/naver/89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; position: relative; display: block;">빅사이즈FW신상! 넉넉해서 다편해~</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; color: rgb(255, 0, 0); font-weight: bold; position: relative; display: block;">32,900원</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 92px; margin-top: 10px; margin-right: 0px; margin-left: 0px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: space-between; align-items: center;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 92px; height: 92px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 4px; float: left;" src="Assets/naver/89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; position: relative; display: block;">빅사이즈FW신상! 넉넉해서 다편해~</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; color: rgb(255, 0, 0); font-weight: bold; position: relative; display: block;">32,900원</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

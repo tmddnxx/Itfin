@@ -1,0 +1,23 @@
+
+.before::before
+{
+	content : "" !important;
+	width : 4px !important;
+	height : 4px !important;
+	background-color : #d3d5d7 !important;
+	border-radius : 50%
+	vertical-align : top !important;
+
+}
+
+.before::before
+{
+	content : "" !important;
+	width : 4px !important;
+	height : 4px !important;
+	background-color : #d3d5d7 !important;
+	border-radius : 50%
+	vertical-align : top !important;
+
+}
+

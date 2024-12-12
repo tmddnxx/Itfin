@@ -1,0 +1,6 @@
+{
+  "styleName": "is_expanded",
+  "items": {
+    "is_expanded": "\n.is_expanded\n{\n\theight: 335px;\n\tposition: absolute;\n\twidth: 706px;\n\tmargin: 0px auto;\n\tborder-radius: 8px;\n\tbox-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 4px 8px 0px;\n\tbackground-color: rgba(0, 0, 0, 0);\n\tz-index: 100;\n\tleft: 50%;\n\ttransform: translate(-50%);\n\ttop: 125px;\n}\n"
+  }
+}

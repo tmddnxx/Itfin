@@ -1,0 +1,178 @@
+<div data-base="AView" data-class="tabViewOne" class="AView-Style" style="width: 100%; background-color: rgba(202, 179, 179, 0); position: relative; display: block; left: 0px; height: 460px; top: 0px; margin-left: 0px; line-height: 20px;" id="tabViewOne--tabViewOne" data-browser-width="850" data-browser-height="480" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AFlexLayout&quot;,&quot;AImage&quot;]}" data-style="">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; background-color: rgb(255, 255, 255); height: 100%; margin-top: 0px; margin-left: 0px; top: 0px; left: 0px;">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 60px; position: relative; left: 0px; background-color: rgb(245, 247, 248); border-radius: 4px; padding: 12px 20px; color: rgb(64, 64, 64); text-align: left; line-height: 40px; margin-left: 0px; display: flex; align-items: center; justify-content: space-between;" id="tabViewOne--c_one_today">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; left: 0px; top: 0px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 0px; display: flex; align-items: center; justify-content: space-between; width: 60%;">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; font-weight: bold;">
+                    <b>HOT</b>
+                </label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">식품</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-top: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">생활·육아</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">디지털</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-top: 0px; color: rgba(16, 16, 16, 0.55);">패션뷰티</label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 0px; margin-right: 0px;" data-style="before before::before"></label>
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; color: rgba(16, 16, 16, 0.55);" data-style="">오픈예정</label>
+            </div>
+            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; color: rgb(0, 0, 0); float: right; margin-left: 0px; display: inline; font-weight: bold;" data-style="">원쁠딜 홈</label>
+        </div>
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 378px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 20px; margin-left: 0px; display: flex; justify-content: space-between;">
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 520px; height: 100%; position: relative; flex-wrap: wrap; background-color: rgba(0, 0, 0, 0); float: left; place-content: space-between flex-start; align-items: stretch;" id="tabViewOne--one_left_container">
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 5px 0px;" class="">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 170px; left: 0px; top: 0px; position: relative; width: 160px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 160px; height: 115px; position: relative; border-radius: 5px;" src="Assets/naver/ee2dee76-3d45-49d8-b136-4b34d703685b.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); padding-top: 5px;">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(255, 0, 0); font-weight : 700; display: inline;">
+                                <b>24,900원&nbsp;</b>
+                            </label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; position: absolute; width: auto; height: auto; top: 5px;">
+                                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;슈퍼너츠 100% 땅콩 피넛버&nbsp; 터 크런치...</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 10px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 170px; left: 0px; top: 0px; position: relative; width: 160px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 160px; height: 115px; position: relative; border-radius: 5px;" src="Assets/naver/ee2dee76-3d45-49d8-b136-4b34d703685b.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(255, 0, 0); font-weight : 700; display: inline;">
+                                <b>24,900원&nbsp;</b>
+                            </label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; top: 5px; position: absolute; width: auto; height: auto;">
+                                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;슈퍼너츠 100% 땅콩 피넛버&nbsp; 터 크런치...</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 10px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 170px; left: 0px; top: 0px; position: relative; width: 160px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 160px; height: 115px; position: relative; border-radius: 5px;" src="Assets/naver/ee2dee76-3d45-49d8-b136-4b34d703685b.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(255, 0, 0); font-weight : 700; display: inline;">
+                                <b>24,900원&nbsp;</b>
+                            </label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; top: 5px; position: absolute; width: auto; height: auto;">
+                                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;슈퍼너츠 100% 땅콩 피넛버&nbsp; 터 크런치...</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 0px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 170px; left: 0px; top: 0px; position: relative; width: 160px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 160px; height: 115px; position: relative; border-radius: 5px;" src="Assets/naver/ee2dee76-3d45-49d8-b136-4b34d703685b.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(255, 0, 0); font-weight : 700; display: inline;">
+                                <b>24,900원&nbsp;</b>
+                            </label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; top: 5px; position: absolute; width: auto; height: auto;">
+                                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;슈퍼너츠 100% 땅콩 피넛버&nbsp; 터 크런치...</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 0px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 170px; left: 0px; top: 0px; position: relative; width: 160px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 160px; height: 115px; position: relative; border-radius: 5px;" src="Assets/naver/ee2dee76-3d45-49d8-b136-4b34d703685b.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(255, 0, 0); font-weight : 700; display: inline;">
+                                <b>24,900원&nbsp;</b>
+                            </label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; top: 5px; position: absolute; width: auto; height: auto;">
+                                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;슈퍼너츠 100% 땅콩 피넛버&nbsp; 터 크런치...</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 10px 0px 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 170px; left: 0px; top: 0px; position: relative; width: 160px; background-color: rgba(0, 0, 0, 0);">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 160px; height: 115px; position: relative; border-radius: 5px;" src="Assets/naver/ee2dee76-3d45-49d8-b136-4b34d703685b.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; padding-top: 5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(255, 0, 0); font-weight : 700; display: inline;">
+                                <b>24,900원&nbsp;</b>
+                            </label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="left: 0px; top: 5px; position: absolute; width: auto; height: auto;">
+                                <b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;슈퍼너츠 100% 땅콩 피넛버&nbsp; 터 크런치...</b>
+                            </label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-right: 4px; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; width: 1px; top: 0px; float : left;"></div>
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 100%; position: relative; flex-direction: column; float: right; width: 250px; padding-left: 20px; justify-content: space-between;" id="tabViewOne--one_right_container">
+                <div style="position: relative; box-sizing: border-box;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 40px; margin : 0 auto; position: relative; background-color: rgb(255, 255, 214); display: flex; align-content: center; justify-content: space-between; padding: 0 10px">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; margin : auto 0; color: rgb(0, 0, 0); position: relative; float: left;">
+                            <b>추천핫딜</b>
+                        </label>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="border-radius: 4px; line-height: 18px; width: 30px; margin : auto 0; position: relative; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); text-align: center; float: right; height: 20px;">AD</label>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box;" class="">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 92px; margin-top: 10px; margin-right: 0px; margin-left: 0px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: space-between; align-items: center;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 92px; height: 92px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 4px; float: left;" src="Assets/naver/89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; position: relative; display: block;">빅사이즈FW신상! 넉넉해서 다편해~</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; color: rgb(255, 0, 0); font-weight: bold; position: relative; display: block;">32,900원</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 92px; margin-top: 10px; margin-right: 0px; margin-left: 0px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: space-between; align-items: center;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 92px; height: 92px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 4px; float: left;" src="Assets/naver/89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; position: relative; display: block;">빅사이즈FW신상! 넉넉해서 다편해~</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; color: rgb(255, 0, 0); font-weight: bold; position: relative; display: block;">32,900원</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 92px; margin-top: 10px; margin-right: 0px; margin-left: 0px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); display: flex; justify-content: space-between; align-items: center;">
+                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 92px; height: 92px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 4px; float: left;" src="Assets/naver/89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; position: relative; display: block;">빅사이즈FW신상! 넉넉해서 다편해~</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 122px; height: auto; color: rgb(255, 0, 0); font-weight: bold; position: relative; display: block;">32,900원</label>
+                        </div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; background-image: linear-gradient(90deg, rgb(255, 112, 67), rgb(255, 51, 86)); font-weight: 600; color: white; font-size: 12px;">1+@</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; padding: 0px 6px; border-radius: 4px 0px; font-weight: 600; color: white; font-size: 12px; background-color: rgba(73, 73, 73, 0.73); margin-left: -4.22px;">72%</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

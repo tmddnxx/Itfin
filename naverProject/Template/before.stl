@@ -1,0 +1,8 @@
+{
+  "styleName": "before",
+  "items": {
+    "before::before": "\n.before::before\n{\n\tcontent : \"\";\n\twidth : 4px;\n\theight : 4px;\n\tbackground-color : #d3d5d7;\n\tborder-radius : 50%\n\tvertical-align : top;\n\n}\n",
+    "before": "\n.before::before\n{\n\tcontent : \"\";\n\twidth : 4px;\n\theight : 4px;\n\tbackground-color : #d3d5d7;\n\tborder-radius : 50%\n\tvertical-align : top;\n\n}\n"
+  },
+  "fullPath": "C:\\Users\\IT_84\\Documents\\SpiderGenWorkspace\\naver_lsw\\naverProject\\Template\\before.stl"
+}

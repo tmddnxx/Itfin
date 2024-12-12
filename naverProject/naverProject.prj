@@ -1,0 +1,561 @@
+{
+  "projectName": "naverProject",
+  "fileTree": {
+    "type": 0,
+    "name": "naverProject",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 1,
+            "name": "Theme",
+            "children": []
+          },
+          {
+            "type": 4,
+            "name": "naverProjectApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          },
+          {
+            "type": 4,
+            "name": "tabViewStyle.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "before.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "is_expanded.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "btnOver.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "slideText.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "naver",
+            "children": [
+              {
+                "type": 8,
+                "name": "news_logo.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "news_icon.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "moreBtn.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "mail.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "home.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "blog.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "store.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "webtoon.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "stock.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "map.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "cafe.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "Pay.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "free-icon-comment-3193015.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "free-icon-computer-keyboard-3616880.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "free-icon-shopping-bag-9110082.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "free-icon-truck-664468.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "free-icon-user-profile-4803050.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "naver_login_btn.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "oliveyoung.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "glasses.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "menu.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "message.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "bucket.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "bell.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "zzz.PNG",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "naver_logo.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "header_ad.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "top_ad_banner.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "sp_main.b27083b1.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "c4750c01-e931-40e0-847c-a5e11a2493d6.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "6b7913f9-0a11-492c-a3ac-3bacddf2cb51.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "mans_ad_image.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "mans_ad_image_smal.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "sp_main.d8baffc2.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "ee2dee76-3d45-49d8-b136-4b34d703685b.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "89e8a1c0-4315-4fef-abfe-42b189d811b8.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "video_ad.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "Live_ad1.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "slow_dish.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "shoulder.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "rbanner1.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "rbanner2.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "pot.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "weather1.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "weather2.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "free-icon-reload-8902020.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "stock1.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "stock2.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "glove.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "ddf.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "calender.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "music_fire.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "music_forest.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "music_water.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "footer_1.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "whale.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "harred.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 1,
+            "name": "PageView",
+            "children": [
+              {
+                "type": 2,
+                "name": "naverProjectLsw.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "naverProjectLsw.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "SubView",
+            "children": [
+              {
+                "type": 1,
+                "name": "shopTabView",
+                "children": [
+                  {
+                    "type": 3,
+                    "name": "tabViewMans.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "tabViewOne.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\"
+                  },
+                  {
+                    "type": 3,
+                    "name": "tabViewLive.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\",
+                    "comment": ""
+                  },
+                  {
+                    "type": 3,
+                    "name": "tabViewShopping.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\",
+                    "comment": ""
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "news",
+                "children": [
+                  {
+                    "type": 3,
+                    "name": "newsListView.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\",
+                    "comment": ""
+                  },
+                  {
+                    "type": 3,
+                    "name": "newsGridView.lay",
+                    "action": 6,
+                    "relType": 1,
+                    "path": "Source\\",
+                    "comment": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "WindowView",
+            "children": []
+          },
+          {
+            "type": 2,
+            "name": "MainView.cls",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 2,
+            "name": "naverProjectApp.cls",
+            "relType": 1,
+            "path": "Source\\"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3.2.9"
+}
