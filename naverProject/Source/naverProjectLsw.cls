@@ -44,7 +44,7 @@ function naverProjectLsw*onInitDone()
 	timeSet(); // 오늘 날짜 설정
 	horizonSlide(); // 좌우 애니메이션
 	slidePaging(); // 좌우 슬라이딩 페이징
-	scroll();
+	scroll(); // 스크롤 검색창 fixed
 	
 	
 };
@@ -326,4 +326,6 @@ function naverProjectLsw*onTopBtnClick(comp, info, e)
 	window.scrollTo(0,0);
 	
 };
+
+
 

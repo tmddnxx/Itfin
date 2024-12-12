@@ -44,8 +44,8 @@ naverProjectLsw.prototype.onInitDone = function()
 	timeSet(); // 오늘 날짜 설정
 	horizonSlide(); // 좌우 애니메이션
 	slidePaging(); // 좌우 슬라이딩 페이징
-	scroll();
-	
+	scroll(); // 스크롤 검색창 fixed
+	contentMoreBtnClick();
 	
 };
 
@@ -301,14 +301,12 @@ function scroll(){
 		const searchBox = document.getElementById('_1--search_area');
 		
 		if(scrollY >= 200){
-			console.log("200 sticky");
 			searchBox.classList.add('fixed');
 			searchBox.firstChild.classList.add('fixed-inner');
 		}else{
 			searchBox.classList.remove('fixed');
 			searchBox.firstChild.classList.remove('fixed-inner');
 		}
-		
 	});
 	
 }
@@ -328,4 +326,21 @@ naverProjectLsw.prototype.onTopBtnClick = function(comp, info, e)
 	window.scrollTo(0,0);
 	
 };
+
+// 하단 피드 더보기 버튼
+function contentMoreBtnClick(){
+	let i = 0;
+	const moreBox = document.getElementById('_1--c_content_more_box');
+	
+	if(i === 0){
+		console.log(i);
+		const feed1 = moreBox.loadView('Source/SubView/feed/moreFeed1.lay');
+		i++;
+	}else if(i === 1){
+		console.log(i);
+		const view1 = moreBox.getLoadView().element.innerHtml;
+		moreBox.element.innerHtml += view1;
+	}
+}
+
 
