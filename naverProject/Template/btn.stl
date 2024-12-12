@@ -1,0 +1,7 @@
+{
+  "styleName": "btn",
+  "items": {
+    "btn": "\n.btn\n{\n\t/* TODO:edit here */\n\n}\n",
+    "settingBtn": ".settingBtn\n{\n\twidth: 40px;\n\theight: 40px;\n\tposition: relative;\n\tcursor: pointer;\n\tborder-radius: 50%;\n\tbox-shadow: rgb(218, 220, 223) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 4px 8px 0px;\n\tbackground-color: rgb(255, 255, 255);\n}\n.settingBtn::before{\n\tcontent: \"\";\n\tbackground-image: url(\"Assets/naver/topBtn-removebg-preview.png\");\n\tbackground-repeat: no-repeat;\n\tbackground-position: 10px 10px;\n\t\n}\n\n.btnDown{\n\tbackground-color:#17b75e;\n\t\n}\n\n\t\n"
+  }
+}

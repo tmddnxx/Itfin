@@ -1,6 +1,8 @@
 {
   "styleName": "slideText",
   "items": {
-    "slide_text": "\n.slide_text\n{\t\n\tfont-size : 13pt;\n\tposition: absolute;\n    width: 100%;\n\theight: 100%;\n\ttransform : translateY(100%);\n    transition: opacity 1s ease, transform 1s ease;\n\ttext-overflow : ellipsis;\n\twhite-space: nowrap;\n}\n\n.visible{\n\t\n\topacity : 1;\n\ttransform: translate(0);\n}\n\n.hidden {\n\topacity : 0;\n\ttransform: translatey(-100%);\n}\n"
+    "slide_text": "\n.slide_text\n{\t\n\tfont-size : 13pt;\n\tposition: absolute;\n    width: 100%;\n\theight: 100%;\n\ttransform : translateY(100%);\n    transition: opacity 1s ease, transform 1s ease;\n\ttext-overflow : ellipsis;\n\twhite-space: nowrap;\n}\n\n.visible{\n\t\n\topacity : 1;\n\ttransform: translate(0);\n}\n\n.hidden {\n\topacity : 0;\n\ttransform: translatey(-100%);\n}\n",
+    "h_slide_item": ".h_slide_item\n{\n\twidth: 400px;\n\theight: 100%;\n    position: relative;\n    display: flex;\n    align-items: center;\n    background-color: rgba(0, 0, 0, 0);\n    \n}\n.visible\n{\n\ttransform : translateX(0);\n}\n\n",
+    "horizonSlidePage": ".horizonSlidePage\n{\n\twidth: 6px;\n\theight: 6px;\n\tborder-radius : 50%;\n\tcolor: rgba(0,0,0,0);\n\tbackground-color: rgba(128, 134, 140, 0.3);\n\tmargin-left: 4px;\n}\n\n.hSlideActive{\n\tbackground-color : #03c75a;\n}\n"
   }
 }

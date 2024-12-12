@@ -1770,12 +1770,7 @@ AView.prototype.reset = function()
 	});
 };
 
-	onNewsListLabelActionenter(comp, info, e)
-	{
 
-		//TODO:edit here
-
-	}
 
 
 

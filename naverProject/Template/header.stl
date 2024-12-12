@@ -1,0 +1,7 @@
+{
+  "styleName": "header",
+  "items": {
+    "header": "\n.header\n{\n\t/* TODO:edit here */\n\n}\n",
+    "fixed": ".fixed\n{\n\tposition : fixed;\n\ttop: 0;\n\tright: 0;\n\tleft : 50%;\n\ttransform : translateX(-50%);\n\twidth: 100%;\n\tz-index: 2000;\n\tborder-radius : 0;\n\tborder-width: 0 0 1px 0;\n\tbackground-color : #fff;\n}\n.fixed-inner{\n\twidth : 1280px;\n\tmargin : 4px auto 0;\n\tpadding-right : 466px;\n}\n.fixed-in-inner{\n\twidth: 814px;\n}\n\n"
+  }
+}

@@ -22,3 +22,32 @@
 	transform: translatey(-100%) !important;
 }
 
+.h_slide_item
+{
+	width: 400px !important;
+	height: 100% !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    
+}
+.visible
+{
+	transform : translateX(0) !important;
+}
+
+.horizonSlidePage
+{
+	width: 6px !important;
+	height: 6px !important;
+	border-radius : 50% !important;
+	color: rgba(0,0,0,0) !important;
+	background-color: rgba(128, 134, 140, 0.3) !important;
+	margin-left: 4px !important;
+}
+
+.hSlideActive{
+	background-color : #03c75a !important;
+}
+
