@@ -2,6 +2,6 @@
   "styleName": "btnOver",
   "items": {
     "btnOver": "\n.btnOver\n{\n\tbackground-color: rgba(235,235,235,0.7);\n\tcolor:rgb(53,53,53); \n\t box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);\n}\n",
-    "newsOver": ".newsOver\n{\n\tbackground-color : blue;\n\tcolor : white;\n\tfont-size: 13px;\n}\n.labelOver:hover{\n\ttext-decoration: underline;\n}\n\n"
+    "newsOver": ".newsOver\n{\t\n}\n\n.newsOver:hover > .AButton-Style {\n\tdisplay: none;\n}\n.newsOver:hover > .news_hover_item{\n\tdisplay : block;\n\t\n}\n.newsLabel:hover{\n\ttext-decoration : underline;\n}\n"
   }
 }

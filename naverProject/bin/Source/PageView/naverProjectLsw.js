@@ -14,7 +14,7 @@ afc.extendsClass(naverProjectLsw, AView);
 
 naverProjectLsw.prototype.init = function(context, evtListener)
 {
-// console.log(this.owner.getContainer().getView().tabViewShopping);
+
 	AView.prototype.init.call(this, context, evtListener);
 
 	this.listData = 
@@ -165,6 +165,7 @@ naverProjectLsw.prototype.onNewsBtnActionenter = function(comp, info, e)
 				</div>`);
 
 };
+
 // 뉴스 그리드 hover default
 naverProjectLsw.prototype.onNewsBtnActionleave = function(comp, info, e)
 {
@@ -339,7 +340,7 @@ naverProjectLsw.prototype.onTopBtnClick = function(comp, info, e)
 	
 };
 
-
+// 더보기버튼 클릭횟수
 let clickCnt = 0;
 
 // 피드 더보기 버튼 클릭
@@ -357,17 +358,18 @@ naverProjectLsw.prototype.onC_content_btn_moreClick = function(comp, info, e)
 	const feed1 = new AView(); // View 동적 생성
 	feed1.init(); // 초기화
 	feed1.setStyleObj(style); // 스타일지정
+	
 	if(clickCnt === 0){
-		feed1.loadView('Source/SubView/feed/moreFeed1.lay'); // 서브뷰 로드
-		this.c_content_more_box.addComponent(feed1); //  컴포넌트 추가	
+		feed1.loadView('Source/SubView/feed/moreFeed1.lay'); // 1 서브뷰 로드
+		this.c_content_more_box.addComponent(feed1); //  1 컴포넌트 추가	
 		clickCnt++;
 	}else if(clickCnt === 1){
-		feed1.loadView('Source/SubView/feed/moreFeed2.lay'); // 서브뷰 로드
-		this.c_content_more_box.addComponent(feed1); //  컴포넌트 추가	
+		feed1.loadView('Source/SubView/feed/moreFeed2.lay'); // 2 서브뷰 로드
+		this.c_content_more_box.addComponent(feed1); //  2 컴포넌트 추가	
 		clickCnt++;
 	}else if(clickCnt === 2){
-		feed1.loadView('Source/SubView/feed/moreFeed3.lay'); // 서브뷰 로드
-		this.c_content_more_box.addComponent(feed1); //  컴포넌트 추가	
+		feed1.loadView('Source/SubView/feed/moreFeed3.lay'); // 3 서브뷰 로드
+		this.c_content_more_box.addComponent(feed1); //  3 컴포넌트 추가	
 		comp.$ele.css('display', 'none');
 	}
 	
