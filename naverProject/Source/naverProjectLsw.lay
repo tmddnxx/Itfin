@@ -290,18 +290,30 @@
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;|&quot;; color: rgb(211, 213, 215); position: relative; font-size: 15pt; margin-left: 10px;" data-style="before before::before">|</label>
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; margin-left: 10px;">연합뉴스</label>
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;&quot;; width: 4px; height: 4px; background-color: rgb(211, 213, 215); position: relative; border-radius: 50%; margin-left: 10px;" data-style="before before::before"></label>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 10px; overflow: hidden; height: 50px; width: 320px; margin-right: 20px; text-overflow: ellipsis; padding-top: 10px; padding-bottom: 10px; line-height: 25px;" id="naverProjectLsw--news_text_container">
-                            <label data-base="ALabel" data-class="slide_text" class="ALabel-Style slide_text" style="" data-style="slide_text" data-pre="true">
-                                <pre>비상계엄 선포 후 폭풍..&nbsp;</pre>
-                            </label>
-                            <label data-base="ALabel" data-class="slide_text" class="ALabel-Style slide_text" style="" data-style=" slide_text" data-pre="true">
-                                <pre>민주 "내란 수괴에게 왜 몇달 더주나..탄핵이 가장 효과적</pre>
-                            </label>
-                            <label data-base="ALabel" data-class="slide_text" class="ALabel-Style slide_text" style="" data-style=" slide_text" data-pre="true">
-                                <pre>아사드 달아난 시리아 대통령 관저... "호화롭고 왕같은 생"</pre>
-                            </label>
-                            <label data-base="ALabel" data-class="slide_text" class="ALabel-Style slide_text" style="" data-style=" slide_text">공수처장 "상황되면 대통령 체포시도.."</label>
-                            <label data-base="ALabel" data-class="slide_text" class="ALabel-Style slide_text" style="" data-style=" slide_text">행안부 "대통령실, 비상계엄 선포 국무회의 회의록"</label>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 300px; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); overflow: hidden; margin-left: 10px; margin-right: 40px;">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; background-color: rgba(0, 0, 0, 0); overflow: visible; height: 50px; width: 300px; text-overflow: ellipsis;" id="naverProjectLsw--news_text_container">
+                                <div data-base="AView" data-class="slide_text" class="AView-Style slide_text" style="width: auto; height: auto; position: relative;" data-style=" slide_text">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style slide_text" style="position: relative; width: auto; height: auto;" data-style="slide_text" data-pre="true">
+                                        <pre>비상계엄 선포 후 폭풍..&nbsp;</pre>
+                                    </label>
+                                </div>
+                                <div data-base="AView" data-class="slide_text" class="AView-Style slide_text" style="width: auto; height: auto; position: relative;" data-style=" slide_text">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style slide_text" style="position: relative;" data-style=" slide_text" data-pre="true">
+                                        <pre>민주 "내란 수괴에게 왜 몇달 더주나..탄핵이 가장 효과적</pre>
+                                    </label>
+                                </div>
+                                <div data-base="AView" data-class="slide_text" class="AView-Style slide_text" style="width: auto; height: auto; position: relative;" data-style=" slide_text">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style slide_text" style="position: relative;" data-style=" slide_text" data-pre="true">
+                                        <pre>아사드 달아난 시리아 대통령 관저... "호화롭고 왕같은 생"</pre>
+                                    </label>
+                                </div>
+                                <div data-base="AView" data-class="slide_text" class="AView-Style slide_text" style="width: auto; height: auto; position: relative;" data-style=" slide_text">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style slide_text" style="position: relative;" data-style=" slide_text">공수처장 "상황되면 대통령 체포시도.."</label>
+                                </div>
+                                <div data-base="AView" data-class="slide_text" class="AView-Style slide_text" style="width: auto; height: auto; position: relative;" data-style=" slide_text">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style slide_text" style="position: relative;" data-style=" slide_text">행안부 "대통령실, 비상계엄 선포 국무회의 회의록"</label>
+                                </div>
+                            </div>
                         </div>
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; float: right; background-color: rgba(0, 0, 0, 0); display: inline-block;">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 13pt; cursor: pointer;">뉴스스탠드</label>
@@ -376,7 +388,7 @@
                                                 <img src="Assets/naver/news_logo.png" style="width: 100px; height: 30px;">
                                             </button>
                                         </td>
-                                        <td style="height: 55px; border-right: 1px solid rgb(235, 235, 235); border-bottom: 1px solid rgb(235, 235, 235); border-left: 1px solid rgb(235, 235, 235); text-align: center; vertical-align: middle;">
+                                        <td style="height: 55px; border-right: 1px solid rgb(235, 235, 235); border-bottom: 1px solid rgb(235, 235, 235); border-left: 1px solid rgb(235, 235, 235); text-align: center; vertical-align: middle;" class="">
                                             <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; padding: 5px;" data-listener-actionenter="naverProjectLsw:onNewsBtnActionenter" data-listener-actionleave="naverProjectLsw:onNewsBtnActionleave" data-style-over=" newsOver">
                                                 <img src="Assets/naver/news_logo.png" style="width: 100px; height: 30px;">
                                             </button>
@@ -513,7 +525,7 @@
                         </button>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; margin-top: 16px; box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px; background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 8px; margin-left: 0px; padding: 20px;" id="naverProjectLsw--c_content_area">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; margin-top: 16px; box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px; background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); border-radius: 8px; margin-left: 0px; padding-top: 20px; padding-right: 20px; padding-left: 20px;" id="naverProjectLsw--c_content_area">
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-style="" id="naverProjectLsw--c_content_title">
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 100%; position: relative; text-align: center; font-size: 13pt; font-family: 나눔; color: rgb(0, 0, 0); font-weight: bold; left: 0px; top: 0px; cursor: pointer;">추천・구독</label>
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style before before::before" style="content: &quot;/&quot;; color: rgb(211, 213, 215); position: relative; font-size: 13pt; margin-left: 10px; margin-right: 10px;" data-style="before before::before">/</label>
@@ -563,7 +575,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -573,7 +585,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -583,7 +595,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -593,7 +605,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -605,7 +617,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -615,7 +627,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -625,7 +637,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -635,7 +647,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -647,7 +659,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -657,7 +669,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -667,7 +679,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -677,7 +689,7 @@
                                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(82, 144, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235); margin-top: -1px;" src="Assets/naver/feed1_icon.png">
                                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">애니먼</label>
                                             </div>
                                         </div>
@@ -690,7 +702,7 @@
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 14pt;">
                             <b>매일 찾는 짧은 즐거움</b>
                         </label>
-                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 250px; position: relative; margin-top: 20px; left: 0px; margin-left: 0px;" id="naverProjectLsw--c_content_poster">
+                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 230px; position: relative; margin-top: 20px; left: 0px; margin-left: 0px;" id="naverProjectLsw--c_content_poster">
                             <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 0px 20px;" class="">
                                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 140px; height: 100%; position: relative; top: 0px; margin-left: 0px; background-color: rgba(0, 0, 0, 0); left: 0px;">
                                     <img data-base="AImage" data-class="AImage" class="AImage-Style" style="position: relative; width: 100%; left: 0px; height: 160px; border-radius: 10px; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); cursor: pointer;" src="Assets/naver/shoulder.jpg">
@@ -734,8 +746,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; position: relative; left: 0px; height: auto; background-color: rgba(0, 0, 0, 0); border-top: 1px solid rgb(235, 235, 235); padding-top: 10px;" id="naverProjectLsw--c_content_more_box"></div>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; padding-right: 0px; padding-left: 0px; background-color: rgba(0, 0, 0, 0); text-align: center; margin-left: 0px; height: auto; cursor: pointer;" id="naverProjectLsw--c_content_btn_more">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; position: relative; left: 0px; height: auto; background-color: rgba(0, 0, 0, 0); padding-top: 10px; border: none;" id="naverProjectLsw--c_content_more_box"></div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; padding-right: 0px; padding-left: 0px; background-color: rgba(0, 0, 0, 0); text-align: center; margin-left: 0px; cursor: pointer; height: 50px; border-top: 1px solid rgb(235, 235, 235); padding-top: 10px;" id="naverProjectLsw--c_content_btn_more" data-listener-click="naverProjectLsw:onC_content_btn_moreClick">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 12pt; margin-left: 10px;">펼쳐보기</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15pt; color: rgb(97, 97, 230); font-weight: bold;">+</label>
                         </div>
@@ -749,7 +761,7 @@
                 </div>
             </div>
             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: auto; position: relative; float: right; background-color: rgb(255, 255, 255); margin-left: 0px;" id="naverProjectLsw--rightContainer">
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 170px; position: relative; padding: 15px; background-color: rgb(255, 255, 255); border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px;" id="naverProjectLsw--login_area">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 170px; position: relative; padding: 15px; background-color: rgb(255, 255, 255); border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px; margin-top: 0px;" id="naverProjectLsw--login_area">
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; text-align: center; line-height: 50px; font-size: 11pt;">네이버를 더 안전하고 편리하게 이용하세요</label>
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; position: relative; left: 0px; height: 55px; background-color: rgb(3, 199, 90); border-radius: 4px; border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.06); color: rgb(255, 255, 255); font-weight: bold; font-size: 15pt; cursor: pointer;">NAVER 로그인</button>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 400px; height: auto; position: relative; text-align: center; margin-top: 16px; font-size: 11pt; background-color: rgba(0, 0, 0, 0); color: rgb(96, 96, 96);">

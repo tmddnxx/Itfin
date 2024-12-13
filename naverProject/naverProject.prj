@@ -481,6 +481,36 @@
                 "name": "topBtn-removebg-preview.png",
                 "relType": 1,
                 "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "feed2.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "feed2_icon.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "feed1_icon.png",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "feed3.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
+              },
+              {
+                "type": 8,
+                "name": "feed3_icon.jpg",
+                "relType": 1,
+                "path": "Assets\\naver\\"
               }
             ]
           }

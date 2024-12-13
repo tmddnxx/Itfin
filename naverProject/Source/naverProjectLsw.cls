@@ -14,6 +14,7 @@ extends AView;
 
 function naverProjectLsw*init(context, evtListener)
 {
+// console.log(this.owner.getContainer().getView().tabViewShopping);
 	super.init(context, evtListener);
 
 	this.listData = 
@@ -105,40 +106,51 @@ function naverProjectLsw*onMoreBtnClick(comp, info, e)
 
 // 상하 슬라이드 애니메이션
 function animateText() {
-  const texts = document.querySelectorAll('.slide_text');
-      let currentIndex = 0;
+  	const texts = document.querySelectorAll('.slide_text');
+    const start = texts[0];
+	const end = texts[texts.length - 1];
 
-      // 첫 번째 텍스트에 'visible' 클래스를 추가하여 페이지 로드 시 바로 보이도록 함
-      texts[currentIndex].classList.add('visible');
+	// 엘리먼트 생성하기
+	const startElem = document.createElement(start.tagName);
+	const endElem = document.createElement(end.tagName);
+	// 엘리먼트 속성 복사
+	end.classList.forEach((c) => endElem.classList.add(c));
+	endElem.innerHTML = end.innerHTML;
+	start.classList.forEach((c) => startElem.classList.add(c));
+	startElem.innerHTML = start.innerHTML;
 
-      setInterval(() => {
-        // 현재 텍스트에서 'visible' 클래스를 제거하고 'hidden' 클래스를 추가
+	// 복사한 엘리먼트 양쪽 끝에 위치
+	texts[0].before(endElem);
+	texts[texts.length - 1].after(startElem);
+
+	const container = document.getElementById('_1--news_text_container');
+	
+	let i = 0;
+	let isTransitioning = false;
+	
+	
+	setInterval(() => {
+	  if (isTransitioning) return; // 트랜지션이 진행 중이면 작업하지 않음
+	  
+	  i++;
+	  isTransitioning = true;
+	  container.style.transition = 'transform 0.5s ease';
+	  container.style.transform = `translateY(-${50 * i}px)`; // 슬라이드 이동
+
+	  // 마지막 아이템에서 첫 번째 아이템으로 돌아갈 때 처리
+	  if (i === 6) {
+		setTimeout(() => {
 		
-        texts[currentIndex].classList.remove('visible');
-        texts[currentIndex].classList.add('hidden');
-
-        // 'currentIndex'를 증가시키며, 마지막 텍스트 이후 첫 번째 텍스트로 돌아오도록 함
-        currentIndex = (currentIndex + 1) % texts.length;
-
-	 // 마지막 텍스트에서 첫 번째 텍스트로 돌아갈 때, 모든 텍스트에 대해 'hidden' 클래스를 초기화
-        if (currentIndex === texts.length-1) {
-			texts.forEach((text, index) => {
-				if (index !== texts.length - 1) {  // 마지막 인덱스 제외
-					text.classList.remove('hidden');
-				}
-			});
-        }
-
-        // 모든 텍스트에서 'hidden' 클래스를 삭제하고, 5번째 텍스트도 'hidden' 클래스를 삭제하여 다시 처음부터 시작
-        if (currentIndex === 0) {
-          texts[texts.length-1].classList.remove('hidden');
-        }	
-		
-        // 다음 텍스트에 'visible' 클래스를 추가하여 보이게 함
-        texts[currentIndex].classList.remove('hidden');
-        texts[currentIndex].classList.add('visible');
-		
-      }, 5000); // 5초마다 애니메이션 반복
+		  container.style.transition = 'none'; // 트랜지션을 끄고, 바로 첫 번째 아이템으로 이동
+		  i = 0;
+		  container.style.transform = `translateY(-0px)`;
+		  isTransitioning = false;
+		}, 0); // 트랜지션 끝나고 동작
+	  } else {
+		isTransitioning = false;
+	  }
+	  
+	}, 5000);
     
 }
 
@@ -328,4 +340,38 @@ function naverProjectLsw*onTopBtnClick(comp, info, e)
 };
 
 
+let clickCnt = 0;
 
+// 피드 더보기 버튼 클릭
+function naverProjectLsw*onC_content_btn_moreClick(comp, info, e)
+{
+	
+	const style = {
+		'width' : 'auto',
+		'height': 'auto',
+		'position' : 'relative',
+	    'background-color' : 'inherit',
+		'border-top': '1px solid #ebebeb',
+		'padding-top': '20px',
+	};
+	const feed1 = new AView(); // View 동적 생성
+	feed1.init(); // 초기화
+	feed1.setStyleObj(style); // 스타일지정
+	if(clickCnt === 0){
+		feed1.loadView('Source/SubView/feed/moreFeed1.lay'); // 서브뷰 로드
+		this.c_content_more_box.addComponent(feed1); //  컴포넌트 추가	
+		clickCnt++;
+	}else if(clickCnt === 1){
+		feed1.loadView('Source/SubView/feed/moreFeed2.lay'); // 서브뷰 로드
+		this.c_content_more_box.addComponent(feed1); //  컴포넌트 추가	
+		clickCnt++;
+	}else if(clickCnt === 2){
+		feed1.loadView('Source/SubView/feed/moreFeed3.lay'); // 서브뷰 로드
+		this.c_content_more_box.addComponent(feed1); //  컴포넌트 추가	
+		comp.$ele.css('display', 'none');
+	}
+	
+	
+	
+
+};
