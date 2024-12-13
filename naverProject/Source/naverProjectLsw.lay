@@ -870,7 +870,7 @@
                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 14pt;">
                             <b>매일 찾는 짧은 즐거움</b>
                         </label>
-                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 230px; position: relative; margin-top: 20px; left: 0px; margin-left: 0px;" id="naverProjectLsw--c_content_poster">
+                        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 230px; position: relative; margin-top: 20px; left: 0px; margin-left: 0px; border-bottom: 1px solid rgb(235, 235, 235);" id="naverProjectLsw--c_content_poster">
                             <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 0px 20px;" class="">
                                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 140px; height: 100%; position: relative; top: 0px; margin-left: 0px; background-color: rgba(0, 0, 0, 0); left: 0px;">
                                     <img data-base="AImage" data-class="AImage" class="AImage-Style" style="position: relative; width: 100%; left: 0px; height: 160px; border-radius: 10px; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); cursor: pointer;" src="Assets/naver/shoulder.jpg">
@@ -914,7 +914,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; position: relative; left: 0px; height: auto; background-color: rgba(0, 0, 0, 0); padding-top: 10px; border: none;" id="naverProjectLsw--c_content_more_box"></div>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; left: 0px; height: auto; background-color: rgba(0, 0, 0, 0); border: none;" id="naverProjectLsw--c_content_more_box"></div>
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; padding-right: 0px; padding-left: 0px; background-color: rgba(0, 0, 0, 0); text-align: center; margin-left: 0px; cursor: pointer; height: 50px; border-top: 1px solid rgb(235, 235, 235); padding-top: 10px;" id="naverProjectLsw--c_content_btn_more" data-listener-click="naverProjectLsw:onC_content_btn_moreClick">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 12pt; margin-left: 10px;">펼쳐보기</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15pt; color: rgb(97, 97, 230); font-weight: bold;">+</label>

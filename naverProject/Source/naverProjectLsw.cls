@@ -352,7 +352,7 @@ function naverProjectLsw*onC_content_btn_moreClick(comp, info, e)
 		'height': 'auto',
 		'position' : 'relative',
 	    'background-color' : 'inherit',
-		'border-top': '1px solid #ebebeb',
+		
 		'padding-top': '20px',
 	};
 	const feed1 = new AView(); // View 동적 생성

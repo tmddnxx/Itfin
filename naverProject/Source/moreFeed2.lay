@@ -1,4 +1,4 @@
-<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); position: relative;" data-browser-width="788" data-browser-height="661" id="AView--moreFeed2" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;ALabel&quot;]}">
+<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgba(0, 0, 0, 0); position: relative; border-color: rgba(0, 0, 0, 0);" data-browser-width="788" data-browser-height="661" id="AView--moreFeed2" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;ALabel&quot;]}">
     <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: auto; height: auto; position: relative; margin-left: 0px; cursor: pointer; background-color: rgba(0, 0, 0, 0);">
         <table cellpadding="0" cellspacing="0">
             <colgroup>
