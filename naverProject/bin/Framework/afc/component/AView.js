@@ -1618,7 +1618,7 @@ AView.prototype.loadView = function(url, asyncCallback, turnback)
     var $item = $('<div></div>');
     $item.css(
     {
-        width: '100%', height: '100%', overflow: 'auto'
+        width: '100%', height: '100%', overflow: 'auto',
     });
 	
     //this.$ele.html($item);

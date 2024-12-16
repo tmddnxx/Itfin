@@ -1,15 +1,15 @@
-<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgba(0, 0, 0, 0); position: relative; border-color: rgba(0, 0, 0, 0);" data-browser-width="808" data-browser-height="671" id="AView--more_feed1" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;ALabel&quot;]}">
-    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: auto; height: auto; position: relative; margin-left: 0px; cursor: pointer; background-color: rgba(0, 0, 0, 0);">
+<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); position: relative; border-color: rgba(0, 0, 0, 0);" data-browser-width="788" data-browser-height="661" id="AView--more_feed1" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;ALabel&quot;]}">
+    <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: auto; height: auto; position: relative; margin-left: 0px; cursor: pointer; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
         <table cellpadding="0" cellspacing="0">
             <colgroup>
-                <col width="197.5px">
-                <col width="197.5px">
-                <col width="197.5px">
-                <col width="197.5px">
+                <col width="">
+                <col width="">
+                <col width="">
+                <col width="">
             </colgroup>
             <tbody>
                 <tr>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -51,7 +51,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -61,7 +61,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: -1px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -93,7 +93,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;" class="">
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px;" src="Assets/naver/slow_dish.jpg">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">멍냥이 급체를 방지하는 '슬로우 식기'</label>

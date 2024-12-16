@@ -1,15 +1,15 @@
-<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgba(0, 0, 0, 0); position: relative; border-color: rgba(0, 0, 0, 0);" data-browser-width="788" data-browser-height="661" id="AView--moreFeed2" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;ALabel&quot;]}">
+<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); position: relative; border-color: rgba(0, 0, 0, 0); overflow: visible;" data-browser-width="788" data-browser-height="661" id="AView--moreFeed2" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AGridLayout&quot;,&quot;AImage&quot;,&quot;ALabel&quot;]}">
     <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: auto; height: auto; position: relative; margin-left: 0px; cursor: pointer; background-color: rgba(0, 0, 0, 0);">
         <table cellpadding="0" cellspacing="0">
             <colgroup>
-                <col width="197.5px">
-                <col width="197.5px">
-                <col width="197.5px">
-                <col width="197.5px">
+                <col width="">
+                <col width="">
+                <col width="">
+                <col width="">
             </colgroup>
             <tbody>
                 <tr>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -39,49 +39,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
-                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
-                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
-                            </div>
-                        </div>
-                    </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
-                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/feed2.png">
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
-                            </div>
-                        </div>
-                    </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
-                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
-                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
-                            </div>
-                        </div>
-                    </td>
-                    <td style="height: 200px; padding: 0px 20px 20px 0px;" class="">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -93,7 +51,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -103,7 +61,7 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -113,7 +71,39 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                    <td style="padding: 0px 20px 20px 0px;" class="">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0px 20px 20px 0px;" class="">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-top: 0px; margin-left: 0px;" src="Assets/naver/feed2.png">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
@@ -123,7 +113,17 @@
                             </div>
                         </div>
                     </td>
-                    <td style="height: 200px; border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;" class="">
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/feed2.png">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: auto; position: relative; left: 0px; display: flex; align-items: center; background-color: rgba(0, 0, 0, 0); margin-top: 5px;">
+                                <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Documents/SpiderGenWorkspace/Naver_Test/Assets/itfin_logo.png&quot;); background-color: rgb(255, 255, 255); border-radius: 50%; border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);" src="Assets/naver/feed2_icon.png">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; display: inline; word-break: break-all; font-size: 11pt; margin-left: 2px; margin-top: 0px;">동물자유연대</label>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="border-bottom: 1px solid rgb(235, 235, 235); padding: 0px 20px 20px 0px;" class="">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                             <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; position: relative; left: 0px; display: block; border-width: 1px; border-style: solid; border-color: rgb(205, 205, 205); border-radius: 5px; margin-left: 0px; margin-top: 0px;" src="Assets/naver/feed2.png">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; display: block; word-break: normal; font-size: 12pt; margin-top: 10px;">번식장에서 구조된 작은개, 폼치의 첫겨울</label>

@@ -348,13 +348,13 @@ function naverProjectLsw*onC_content_btn_moreClick(comp, info, e)
 {
 	
 	const style = {
-		'width' : 'auto',
+		'width' : '100%',
 		'height': 'auto',
 		'position' : 'relative',
 	    'background-color' : 'inherit',
-		
 		'padding-top': '20px',
 	};
+	
 	const feed1 = new AView(); // View 동적 생성
 	feed1.init(); // 초기화
 	feed1.setStyleObj(style); // 스타일지정
