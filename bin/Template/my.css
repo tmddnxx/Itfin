@@ -1,0 +1,19 @@
+
+.myRow
+{
+	
+}
+.myRow::before{
+	content: "★" !important;
+	width: 10px !important;
+	height: 10px !important;
+
+}
+
+.ck-editor
+{
+	resize: both !important;        /* 텍스트 영역을 가로 및 세로로 리사이즈할 수 있도록 설정 */
+    overflow: auto !important;      /* 넘칠 경우 스크롤 가능 */
+    min-height: 200px !important;
+}
+

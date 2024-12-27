@@ -1,0 +1,147 @@
+<div data-base="AView" data-class="TE1000" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(233, 236, 239); position: relative;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ARadioGroup&quot;,&quot;ARadioButton&quot;,&quot;ALabel&quot;,&quot;ATextField&quot;,&quot;AButton&quot;,&quot;AGrid&quot;,&quot;ASelectBox&quot;],&quot;mdfc&quot;:[&quot;ACalendarPicker&quot;]}" data-browser-width="1920" data-max-abutton="1" data-browser-height="1080"
+    ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; left: 0px; top: 0px; height: calc((100% - 0px) - 360px); margin-bottom: 60px;" data-sgap-height="1" id="TE1000--mainRoot"
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; left: 0px; height: 40px; display: flex; gap: 10px; top: 0px;"
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; top: 0px; width: auto;"
+                ><div data-base="ARadioGroup" data-class="ARadioGroup" class="ARadioGroup-Style" style="width: 320px; height: 100%; left: 0px; top: 0px; position: relative; line-height: 40px; display: flex; gap: 10px; background-color: rgba(0, 0, 0, 0);" data-default-select="all" id="TE1000--radioBox" data-mapping-type="1" data-blocks-te1000="InBlock1,notice_type" data-query-name="TE1000"
+                    ><span data-base="ARadioButton" data-class="ARadioButton" class="ARadioButton-Style radiobtn_check" tabindex="0" style="width: auto; height: auto; position: relative; display: inline;" id="TE1000--all" data-radio-value="0">전체</span
+                    ><span data-base="ARadioButton" data-class="ARadioButton" class="ARadioButton-Style" tabindex="0" style="width: auto; height: auto; position: relative; display: inline;" data-radio-value="1">공지</span
+                    ><span data-base="ARadioButton" data-class="ARadioButton" class="ARadioButton-Style" tabindex="0" style="width: auto; height: auto; position: relative; display: inline;" data-radio-value="2">긴급</span
+                    ><span data-base="ARadioButton" data-class="ARadioButton" class="ARadioButton-Style" tabindex="0" style="width: auto; height: auto; position: relative; display: inline;" data-radio-value="3">뉴스</span
+                    ><span data-base="ARadioButton" data-class="ARadioButton" class="ARadioButton-Style" tabindex="0" style="width: auto; height: auto; position: relative; display: inline;" data-radio-value="4">시스템</span
+                ></div
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; top: 0px; display: flex; align-items: center; gap: 10px; background-color: rgba(0, 0, 0, 0);"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">시작일자</label
+                ><div data-base="ACalendarPicker" data-class="ACalendarPicker" class="ACalendarPicker-Style" style="position: relative; width: 150px; border-width: 1px; border-style: solid;" id="TE1000--start_date" data-blocks-te1000="InBlock1,start_date" data-query-name="TE1000"
+                    ><div style="width:100%; height:100%"
+                        ><div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true"
+                            ><input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2024-12-27" autocomplete="off"
+                            ><button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-listener-click="ACalendarPickerItem:onClickCal" tabindex="-1"></button
+                        ></div
+                    ></div
+                ></div
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; top: 0px; display: flex; align-items: center; gap: 10px;"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative;">종료일자</label
+                ><div data-base="ACalendarPicker" data-class="ACalendarPicker" class="ACalendarPicker-Style" style="position: relative; width: 150px; border-width: 1px; border-style: solid;" id="TE1000--end_date" data-blocks-te1000="InBlock1,end_date" data-query-name="TE1000"
+                    ><div style="width:100%; height:100%"
+                        ><div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true"
+                            ><input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2024-12-27" autocomplete="off"
+                            ><button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-listener-click="ACalendarPickerItem:onClickCal" tabindex="-1"></button
+                        ></div
+                    ></div
+                ></div
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;Assets/free-icon-reload-8902020.png&quot;); background-repeat: no-repeat; background-size: contain; background-color: rgba(0, 0, 0, 0); transform: rotate(50deg);" data-background-option="fit" id="TE1000--dateReset" data-listener-click="TE1000:onDateResetClick"></button
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; top: 0px; line-height: 40px; width: auto;"
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100px; height: 25px; position: relative; margin-right: 10px; margin-top: 0px;" data-listener-click="TE1000:onCheckBtnClick">조회</button
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100px; height: 25px; position: relative;" data-listener-click="TE1000:onNextBtnClick">다음</button
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="height: 100%; position: relative; top: 0px; left: 0px; width: 600px; text-align: center;"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 100%; position: relative; top: 0px; line-height: 40px;" id="TE1000--usernameLabel"></label
+            ></div
+        ></div
+        ><div data-base="AGrid" data-class="AGrid" data-selectable="true" data-clear-rowtmpl="true" data-ver="3301" class="AGrid-Style" data-hide-footer="true" style="width: 100%; position: relative; top: 0px; height: 100%; visibility: visible; margin-top: 0px; margin-left: 0px;" data-sortable="1" data-blocks-te1000="OutBlock1,notice_id,notice_title,notice_content,notice_type,notice_date" data-query-name="TE1000|TE1010" data-crud="0" data-blocks-te1010="InBlock1,notice_id,,,," data-listener-dblclick="TE1000:onBoardGridDblclick" id="TE1000--boardGrid" data-fullrow-select="1"
+            ><div class="grid-scroll-area" style="min-height: 280px;"
+                ><table class="grid-header-table" align="center"
+                    ><colgroup
+                        ><col width="100"
+                        ><col width="500"
+                        ><col width="800"
+                        ><col width="100"
+                        ><col width="200"
+                    ></colgroup
+                    ><thead align="center" class="head-prop" style=""
+                        ><tr height="22px"
+                            ><td class="" style="">index</td
+                            ><td class="" style="">제목</td
+                            ><td class="" style="">본문</td
+                            ><td class="" style="">구분</td
+                            ><td class="" style="">수정일자</td
+                        ></tr
+                    ></thead
+                ></table
+                ><table class="grid-body-table" align="center"
+                    ><colgroup
+                        ><col width="100"
+                        ><col width="500"
+                        ><col width="800"
+                        ><col width="100"
+                        ><col width="200"
+                    ></colgroup
+                    ><thead align="center" class="head-prop"
+                        ><tr height="0px" style="height: 0px;"
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                        ></tr
+                    ></thead
+                    ><tbody align="center" class="body-prop" data-style-body=""
+                        ><tr height="25" style="background-color: rgba(0, 0, 0, 0);"
+                            ><td class="" style=""></td
+                            ><td class="" data-maskfunc="queryFmt.contentFmt" data-maskparam="[&quot;title&quot;]" data-maskorigin=""></td
+                            ><td class="" style="" data-maskfunc="queryFmt.contentFmt" data-maskparam="[]" data-maskorigin=""></td
+                            ><td class="" data-maskfunc="queryFmt.typeFmt" data-maskparam="[]" data-maskorigin="">Unknown</td
+                            ><td class="" data-maskfunc="Date.date" data-maskparam="[&quot;-&quot;]" data-maskorigin=""></td
+                        ></tr
+                    ></tbody
+                ></table
+                ><table class="grid-footer-table" align="center"
+                    ><colgroup
+                        ><col width="100"
+                        ><col width="500"
+                        ><col width="800"
+                        ><col width="100"
+                        ><col width="200"
+                    ></colgroup
+                    ><thead align="center" class="head-prop"
+                        ><tr height="0px"
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                        ></tr
+                    ></thead
+                    ><tfoot align="center" class="foot-prop" style="display: none;"
+                        ><tr height="22px"
+                            ><td>col1</td
+                            ><td>col2</td
+                            ><td>col3</td
+                            ><td></td
+                            ><td></td
+                        ></tr
+                    ></tfoot
+                ></table
+            ></div
+        ></div
+    ></div
+    ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 280px; position: relative; background-color: rgb(233, 236, 239); padding-right: 60px; display: block;" data-style="" id="TE1000--contentRoot"
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="position: relative; left: 0px; width: 100%; height: 5px;" id="TE1000--resizeHandler"></div
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; left: 0px; margin-left: 0px; height: 40px; margin-top: 0px; display: flex; justify-content: space-between; align-items: center; background-color: rgba(0, 0, 0, 0);"
+            ><select data-base="ASelectBox" data-class="ASelectBox" class="ASelectBox-Style" style="width: 140px; height: 25px; position: relative;" id="TE1000--selectBox" data-query-name="TE1011|TE1010|TE1012" data-blocks-te1011="InBlock1,notice_type," data-blocks-te1012="InBlock1,notice_type,"
+                ><option value="1">공지</option
+                ><option value="2">긴급</option
+                ><option value="3">뉴스</option
+                ><option value="4">시스템</option
+            ></select
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; top: 0px; position: relative; display: flex; align-items: center; gap: 5px; background-color: rgba(0, 0, 0, 0);"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: inline;">제목</label
+                ><input data-base="ATextField" data-class="ATextField" type="text" value="" class="ATextField-Style" autocomplete="off" style="width: 1000px; height: 25px; position: relative; left: 0px; display: inline;" id="TE1000--title" data-query-name="TE1011|TE1010|TE1012" data-blocks-te1011="InBlock1,notice_title" data-blocks-te1010="OutBlock1,notice_title" data-blocks-te1012="InBlock1,notice_title" maxlength="256" placeholder="최대 256자까지 입력하실 수 있습니다."
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; display: flex; align-items: center; gap: 5px; background-color: rgba(0, 0, 0, 0);"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: inline;">일련번호</label
+                ><input data-base="ATextField" data-class="ATextField" type="text" value="" class="ATextField-Style" autocomplete="off" style="width: 200px; position: relative; left: 0px; display: inline; top: 0px; height: 25px; cursor: text;" readonly="readonly" id="TE1000--indexField" disabled="disabled" contenteditable="true" data-original-text="" data-blocks-te1010="InBlock1,notice_id|OutBlock1,notice_id" data-query-name="TE1010|TE1012|TE1013" data-blocks-te1012="InBlock1,notice_id" data-blocks-te1013="InBlock1,notice_id"
+            ></div
+        ></div
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 240px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px;" id="TE1000--noticeContent" data-query-name="TE1011" data-style=""></div
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="position: absolute; top: 0px; width: 60px; height: 240px; right: 0px; display: flex; flex-direction: column; gap: 5px; background-color: rgba(0, 0, 0, 0);"
+            ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; position: relative; left: 0px; height: 25px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0);" id="TE1000--addBtn" data-listener-click="TE1000:onAddBtnClick">추가</button
+            ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100%; position: relative; height: 25px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0);" id="TE1000--modifyBtn" data-listener-click="TE1000:modifyBtnClick" data-style-disable="disabled" data-style="btn">수정</button
+            ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100%; position: relative; height: 25px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); margin-top: 0px; left: 0px; top: 0px;" id="TE1000--removeBtn" data-listener-click="TE1000:removeBtnClick" data-style-disable="disabled" data-style="btn">삭제</button
+            ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; position: relative; height: 25px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); margin-top: 0px; font-size: 14px;" data-listener-click="TE1000:detailBtnClick" data-style-disable="" data-style="" id="TE1000--detailBtn">상세보기</button
+        ></div
+    ></div
+></div>

@@ -1,0 +1,7 @@
+{
+  "styleName": "my",
+  "items": {
+    "myRow": "\r\n.myRow\r\n{\r\n\t\r\n}\r\n.myRow::before{\r\n\tcontent: \"★\";\r\n\twidth: 10px;\r\n\theight: 10px;\r\n\r\n}\r\n",
+    "ck-editor": ".ck-editor\r\n{\r\n\tresize: both;        /* 텍스트 영역을 가로 및 세로로 리사이즈할 수 있도록 설정 */\r\n    overflow: auto;      /* 넘칠 경우 스크롤 가능 */\r\n    min-height: 200px;\r\n}\r\n\r\n"
+  }
+}
