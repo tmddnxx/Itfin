@@ -39,7 +39,7 @@
   },
   "deployment": {
     "upload": {
-      "idx": null,
+      "idx": 0,
       "list": []
     },
     "checkVersion": false

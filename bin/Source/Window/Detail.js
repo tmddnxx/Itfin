@@ -6,7 +6,7 @@ Detail = class Detail extends AView
 		super()
         
 		this.selectData = null;
-
+        this.READ_ONLY_MODE_ID = 'unique-lock-id';
 	}
 
 	init(context, evtListener)
@@ -26,7 +26,8 @@ Detail = class Detail extends AView
 	}
 
     createCkEditor(target)
-    {
+    {   
+        const thisObj = this;
         return ClassicEditor.create(target, {
             language: 'ko',
             extraPlugins: [customUploadAdapterPlugin],
@@ -36,7 +37,7 @@ Detail = class Detail extends AView
         })
         .then(editor => {
             editor.editing.view.change(writer => writer.setStyle('height', '620px', editor.editing.view.document.getRoot()))
-            editor.enableReadOnlyMode('unique-lock-id'); // readonly 부여
+            editor.enableReadOnlyMode(thisObj.READ_ONLY_MODE_ID); // readonly 부여
             this.content = editor;
 
         })

@@ -6,6 +6,7 @@ TE1000 = class TE1000 extends AView
 		super()
 
         this.nextKey;
+        this.READ_ONLY_MODE_ID = 'unique-lock-id';
 	}
 
 	init(context, evtListener)
@@ -13,6 +14,11 @@ TE1000 = class TE1000 extends AView
 		super.init(context, evtListener)
 
 		this.createCkEditor(this.noticeContent.element);
+        const nav = document.querySelector("[data-class='Nav']");
+        const navParent = nav.parentNode.parentNode.parentNode;
+        navParent.style.position = 'relative';
+        navParent.style.bottom = '0';
+
         
 
 	}
@@ -34,6 +40,7 @@ TE1000 = class TE1000 extends AView
         
 	}
 
+    // 에디터
     createCkEditor(target)
     {
         return ClassicEditor.create(target, {
@@ -49,8 +56,8 @@ TE1000 = class TE1000 extends AView
             editor.editing.view.change(writer => writer.setStyle('min-height', '200px', editor.editing.view.document.getRoot()))
             this.noticeContent = editor;
 
-            const contentRoot = this.contentRoot.element;
-            const resizeHandle = this.resizeHandler.element;
+            const contentRoot = this.contentRoot.element; // 에디터 root
+            const resizeHandle = this.resizeHandler.element; // 리사이즈 핸들러
             const mainRoot = this.mainRoot.element;
             let isResizing = false;
             let y = 0;
@@ -214,8 +221,6 @@ TE1000 = class TE1000 extends AView
             }
         });
 
-
-        
         return false;
     }
 
@@ -246,6 +251,10 @@ TE1000 = class TE1000 extends AView
     // 개별조회 쿼리
     getOneQuery(index) {
         const thisObj = this;
+        thisObj.title.setReadOnly(false);
+        thisObj.selectBox.element.disabled = false;
+        thisObj.noticeContent.disableReadOnlyMode(thisObj.READ_ONLY_MODE_ID);
+
         return new Promise((resolve, reject) => {
             // getOne query
             theApp.qm.sendProcessByName('TE1010', this.getContainerId(), null,
@@ -275,6 +284,12 @@ TE1000 = class TE1000 extends AView
                     btn.enable(!isDisabled);
                     isDisabled ? btn.changeBtnState(AButton.DISABLE) : btn.clearStateClass();
                 });
+
+                if(isDisabled){
+                    thisObj.title.setReadOnly(true);
+                    thisObj.selectBox.element.disabled = true;
+                    thisObj.noticeContent.enableReadOnlyMode(thisObj.READ_ONLY_MODE_ID);
+                }
 
                 // 정상적으로 outblock1을 반환
                 resolve(outblock1);
@@ -352,12 +367,22 @@ TE1000 = class TE1000 extends AView
     // 상세보기 버튼 클릭
 	detailBtnClick(comp, info, e)
 	{   
+        const index = this.indexField.getText();
+        const title = this.title.getText();
+        const type = this.selectBox.getSelectedItemValue();
+        const content = this.noticeContent.getData();
+        
+        if(!index || !title || !type || !content){
+            AToast.show('게시물을 먼저 선택해주세요');
+            return;
+        }
+
         // 선택 데이터
         const selectData = {
-            index : this.indexField.getText(),
-            title : this.title.getText(),
-            type : this.selectBox.getSelectedItemValue(),
-            content : this.noticeContent.getData(),
+            index : index,
+            title : title,
+            type : type,
+            content : content,
         }
 		const window = new AWindow('detail_Modal');
         window.setOption({
