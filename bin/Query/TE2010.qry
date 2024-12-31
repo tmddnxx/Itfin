@@ -1,0 +1,26 @@
+{
+	"name": "TE2010",
+	"desc": "회원조회",
+	"queryType": "api",
+	"input": {
+		"InBlock1": {
+			"format": [
+				["관리자 id","user_id","","","char",32,"0"],
+				["검색어","search","","","char",32,"0"]
+			]
+		}
+	},
+	"output": {
+		"OutBlock1": {
+			"format": [
+				["관리자 id","user_id","","","char",32,"0"],
+				["회원 id","member_id","","","char",32,"0"],
+				["회원 이름","member_name","","","char",32,"0"],
+				["계좌번호","acnt_cd","","","char",16,"0"],
+				["예수금","deposit_amt","","","signed",20,"0"],
+				["사용여부","used_yn","","","char",1,"0", "Y: 사용, N: 미사용"],
+				["next_key","next_key","","","char",128,"0"]
+			]
+		}
+	}
+}

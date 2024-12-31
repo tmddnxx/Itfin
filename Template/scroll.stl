@@ -1,0 +1,6 @@
+{
+  "styleName": "scroll",
+  "items": {
+    "overflow-x": "\r\n.overflow-x\r\n{\r\n\toverflow-x: auto;\r\n\r\n}\r\n"
+  }
+}

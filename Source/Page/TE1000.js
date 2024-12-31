@@ -178,7 +178,7 @@ TE1000 = class TE1000 extends AView
     upsertQuery(queryName){
 
         const title = this.title.getText();
-		const content = this.noticeContent.getData(); // html 태그 제거
+		const content = this.noticeContent.getData(); 
         const thisObj = this;
 
         // 빈칸 valid 
@@ -415,7 +415,6 @@ TE1000 = class TE1000 extends AView
 
         startDate.setDate(todyaObj);
         endDate.setDate(todyaObj);
-
 	}
 
     // 타입 value -> 문자열 포맷

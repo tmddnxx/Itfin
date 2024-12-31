@@ -1,6 +1,7 @@
 {
   "styleName": "btn",
   "items": {
-    "btn": "\r\n.btn\r\n{\r\n\r\n}\r\n.disabled{\r\n\tbackground-color:  #686868;\r\n}"
+    "btn": "\r\n.btn\r\n{\r\n\r\n}\r\n.disabled{\r\n\tbackground-color:  #686868;\r\n}",
+    "historyBtn": ".historyBtn\r\n{\r\n\tbackground-color: #fff;\r\n}\r\n\r\n.on{\r\n\tbackground-color: bisque;\r\n}\r\n\r\n"
   }
 }

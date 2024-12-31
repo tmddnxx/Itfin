@@ -55,7 +55,9 @@ query_testApp = class query_testApp extends AApplication
         if( !this.navi ) return;
         
         for (var key in menu) {
+            
             this.navi.registerPage(`Source/Page/${key}.lay`, key);
+            
         }
     }
 

@@ -75,6 +75,104 @@ ADataMask.queryFmt.contentFmt =
 	}
 }
 
+ADataMask.queryFmt.color = 
+{
+    title: "사용여부 N",
+    param: [],
+    func: function funcName(value, param, ele, dataObj)
+    {
+        if(value === 'N'){
+            ele.parentNode.style.color = 'red';
+            value = "미사용";
+        }else{
+            value = "사용";
+        }
+
+        return value;
+    }
+}
+
+ADataMask.queryFmt.sellbuy_type = 
+{
+    title: "매도매수구분",
+    param: [],
+    func: function funcName(value, param, ele, dataObj)
+    {   
+            switch(value){
+            case "1" :
+                value = "매도"
+                break;
+            case "2" : 
+                value = "매수"
+                break;
+        }
+
+        return value;
+    }
+}
+
+ADataMask.queryFmt.ord_type = 
+{
+    title: "호가유형",
+    param: [],
+    func: function funcName(value, param, ele, dataObj)
+    {   
+            switch(value){
+            case "1" :
+                value = "시장가"
+                break;
+            case "2" : 
+                value = "지정가"
+                break;
+        }
+
+        return value;
+    }
+}
+
+ADataMask.queryFmt.ord_action = 
+{
+    title: "신규정정취소구분",
+    param: [],
+    func: function funcName(value, param, ele, dataObj)
+    {   
+            switch(value){
+            case "1" :
+                value = "신규"
+                break;
+            case "2" : 
+                value = "정정"
+                break;
+            case "3" : 
+                value = "취소"
+            break;
+        }
+
+        return value;
+    }
+}
+
+ADataMask.queryFmt.trsc_type = 
+{
+    title: "이체구분",
+    param: [],
+    func: function funcName(value, param, ele, dataObj)
+    {   
+            switch(value){
+            case "D" :
+                value = "입금"
+                break;
+            case "W" : 
+                value = "출금"
+                break;
+        }
+
+        return value;
+    }
+}
+
+
+
 // figureType 설정
 function getFigureType(value) {
     if (value.includes('table')) {
