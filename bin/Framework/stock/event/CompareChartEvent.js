@@ -1,0 +1,1 @@
+class CompareChartEvent extends AEvent{constructor(t){super(t)}}(window.CompareChartEvent=CompareChartEvent).prototype.change=function(){};

@@ -1,0 +1,109 @@
+
+/************************************************************************************/
+/*	Component Default Style 														*/
+/************************************************************************************/
+
+.EXStock-up
+{
+	color:#ff4f62;
+}
+
+.EXStock-down
+{
+	color:#008bff;
+}
+
+.EXStock-steady
+{
+	color:#5e637d;
+}
+
+/*-------------------------------- 봉차트 ---------------------------------------*/
+.EXStocksChart-Style
+{
+    background-color: #000000;
+}
+
+/*-------------------------------- 봉차트 ---------------------------------------*/
+.CandleChart-Style
+{
+    background-color: #ffffff;
+}
+
+/*-------------------------------- 미니차트 ---------------------------------------*/
+.EXMiniChart-Style
+{
+	background-color: #000000;
+}
+
+/*---------------------------------- -------------------------------------*/
+
+.EXBong-Style span
+{
+	background-color: #fff;
+}
+
+/*--------------------------------- --------------------------------------*/
+
+.EXTriangle-Style div:nth-child(1)
+{
+	border-color: transparent transparent white transparent;
+}
+
+/*------------------------------ 종목 박스 -----------------------------------------*/
+.EXIscdBox-Style
+{
+	background-color: white;
+}
+
+/*------------------------------- 계좌 박스 ----------------------------------------*/
+.EXAccountBox-Style
+{
+	background-color: white;
+}
+
+/*-------------------------------- 지수 차트 ---------------------------------------*/
+.EXJisooChart-Style
+{
+    background-color: #ffffff;
+}
+
+/*-------------------------------- 비교 차트 ---------------------------------------*/
+.CompareChart-Style
+{
+    background-color: #ffffff;
+}
+
+/*-------------------------------- HogaGrid Current Price Style ---------------------------------------*/
+.EXHogaGrid-CurPrice-Up
+{
+	box-shadow: inset 0px 0px 0px 2px #ff0000;
+}
+.EXHogaGrid-CurPrice-Down
+{
+	box-shadow: inset 0px 0px 0px 2px #0070ff;
+}
+.EXHogaGrid-CurPrice-Steady
+{
+	box-shadow: inset 0px 0px 0px 2px #000000;
+}
+
+/*-------------------------------- MiniHoga Current Price Style ---------------------------------------*/
+.EXMiniHoga-CurPrice-Up
+{
+	box-shadow: inset 0px 0px 0px 2px #ff0000;
+}
+.EXMiniHoga-CurPrice-Down
+{
+	box-shadow: inset 0px 0px 0px 2px #0070ff;
+}
+.EXMiniHoga-CurPrice-Steady
+{
+	box-shadow: inset 0px 0px 0px 2px #000000;
+}
+
+/*-------------------------------- OrderHogaGrid Select Style ---------------------------------------*/
+.EXOrderHogaGrid-Style-CurPrice
+{
+	border: 1px solid rgba(213, 213, 213, 0.5);
+}

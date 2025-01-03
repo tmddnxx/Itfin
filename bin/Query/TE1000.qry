@@ -7,8 +7,7 @@
 			"format": [
 				["구분","notice_type","","","char",1,"0"],
 				["조회시작일자","start_date","","","varchar",8,"0", "yyMMdd"],
-				["조회마감일자","end_date","","","varchar",8,"0", "yyMMdd"],
-                ["다음","next_key","","","number",8,"0"]
+				["조회마감일자","end_date","","","varchar",8,"0", "yyMMdd"]
 			]
 		}
 	},

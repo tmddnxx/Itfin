@@ -1,0 +1,1 @@
+class EXMiniChartEvent extends AEvent{constructor(n){super(n)}}(window.EXMiniChartEvent=EXMiniChartEvent).prototype.change=function(){};

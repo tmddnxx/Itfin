@@ -5,7 +5,7 @@
 	"input": {
 		"InBlock1": {
 			"format": [
-				["index","notice_id","","","signed",11,"0"]
+				["index","notice_id","","","int",11,"0"]
 			]
 		}
 	},

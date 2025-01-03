@@ -7,6 +7,7 @@ TE1000 = class TE1000 extends AView
 
         this.nextKey;
         this.READ_ONLY_MODE_ID = 'unique-lock-id';
+        this.typeValue = 0;
 	}
 
 	init(context, evtListener)
@@ -19,7 +20,12 @@ TE1000 = class TE1000 extends AView
         navParent.style.position = 'relative';
         navParent.style.bottom = '0';
 
-        
+        this.start_date.setCalendarIconStyle({
+            'cursor' : 'pointer',
+        });
+        this.end_date.setCalendarIconStyle({
+            'cursor' : 'pointer',
+        })
 
 	}
 
@@ -36,8 +42,6 @@ TE1000 = class TE1000 extends AView
 		super.onActiveDone(isFirst)
         this.loadList();
         this.usernameLabel.setText(this.getUserId() + "님 환영합니다.");
-		//TODO:edit here
-        
 	}
 
     // 에디터
@@ -144,9 +148,16 @@ TE1000 = class TE1000 extends AView
         { // InBlock 설정
             const inblock1 = queryData.getBlockData('InBlock1')[0];
             if(nextKey) {
-                inblock1.next_key = nextKey;        
+                inblock1.next_key = nextKey;
+                inblock1.start_date = "0";
             }
             
+            // 기존과 다른 타입의 조회는 항상 초기화 
+            if(inblock1.notice_type != thisObj.typeValue){
+                thisObj.onCheckBtnClick();
+            }
+
+            thisObj.typeValue = thisObj.radioBox.getSelectValue();
         },
         function(queryData)
         { // OutBlock 처리
@@ -193,7 +204,6 @@ TE1000 = class TE1000 extends AView
             const inblock1 = queryData.getBlockData('InBlock1')[0];
             
             inblock1.notice_content = content;
-           
             
         },
         function(queryData)
@@ -393,9 +403,21 @@ TE1000 = class TE1000 extends AView
         })
         window.setData(selectData);
         window.openAsDialog('Source/Window/Detail.lay', this.getContainer(), 900, 900);
-
-
+        window.setResultListener(this);
 	}
+    
+    // 윈도우가 닫히면 초기화
+    onWindowResult(result, data){
+        this.indexField.setText("");
+        this.title.setText("");
+        this.selectBox.selectItem(0);
+        this.noticeContent.setData("");
+        this.modifyBtn.clearStateClass();
+        this.removeBtn.clearStateClass();
+        this.title.setReadOnly(false);
+        this.selectBox.element.disabled = false;
+        this.noticeContent.disableReadOnlyMode(this.READ_ONLY_MODE_ID);
+    }
 
     // 날짜 리셋버튼 클릭
 	onDateResetClick(comp, info, e)

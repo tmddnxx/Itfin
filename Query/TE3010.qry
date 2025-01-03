@@ -5,21 +5,21 @@
 	"input": {
 		"InBlock1": {
 			"format": [
-				["계좌번호","acnt_cd","","","char",16,"0"],
-				["조회시작일자","start_date","","","char",8,"0", "yyyyMMdd"],
-				["조회마감일자","end_date","","","char",8,"0", "yyyyMMdd"]
+				["계좌번호","acnt_cd","","","varchar",16,"0"],
+				["조회시작일자","start_date","","","varchar",8,"0", "yyyyMMdd"],
+				["조회마감일자","end_date","","","varchar",8,"0", "yyyyMMdd"]
 			]
 		}
 	},
 	"output": {
 		"OutBlock1": {
 			"format": [
-				["영업일자","biz_date","","","char",8,"0", "yyyyMMdd"],
-				["로그시간","biz_time","","","char",8,"0", "hh24miss"],
-				["계좌번호","acnt_cd","","","char",16,"0"],
-				["로그제목","log_title","","","char",64,"0"],
-				["로그내용","log_content","","","char",256,"0"],
-				["next_key","next_key","","","char",128,"0"]
+				["영업일자","biz_date","","","varchar",8,"0", "yyyyMMdd"],
+				["로그시간","biz_time","","","varchar",8,"0", "hh24miss"],
+				["계좌번호","acnt_cd","","","varchar",16,"0"],
+				["로그제목","log_title","","","varchar",64,"0"],
+				["로그내용","log_content","","","varchar",256,"0"],
+				["next_key","next_key","","","varchar",128,"0"]
 			]
 		}
 	}

@@ -10,7 +10,7 @@
 	"output": {
 		"OutBlock1": {
 			"format": [
-				["관리자 ID","user_id","","","char",32,"0"]
+				["관리자 ID","user_id","","","varchar",32,"0"]
 			]
 		}
 	}

@@ -1,0 +1,1 @@
+!async function(){await afc.import("Framework/afc/event/AGridEvent.js"),EXHogaGridEvent=class extends AGridEvent{constructor(t){super(t)}}}();

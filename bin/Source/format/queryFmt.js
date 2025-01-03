@@ -161,12 +161,13 @@ ADataMask.queryFmt.trsc_type =
             switch(value){
             case "D" :
                 value = "입금"
+                ele.style.color = "red";
                 break;
             case "W" : 
                 value = "출금"
+                ele.style.color = "blue";
                 break;
         }
-
         return value;
     }
 }

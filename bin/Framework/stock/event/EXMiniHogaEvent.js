@@ -1,0 +1,1 @@
+!async function(){await afc.import("Framework/afc/event/AGridEvent.js"),EXMiniHogaEvent=class extends AGridEvent{constructor(n){super(n)}}}();

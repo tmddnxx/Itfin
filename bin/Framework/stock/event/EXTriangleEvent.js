@@ -1,0 +1,1 @@
+class EXTriangleEvent extends AEvent{constructor(e){super(e)}}window.EXTriangleEvent=EXTriangleEvent;
