@@ -1,0 +1,1 @@
+class EXBongEvent extends AEvent{constructor(n){super(n)}}window.EXBongEvent=EXBongEvent;

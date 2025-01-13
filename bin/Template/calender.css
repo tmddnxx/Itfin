@@ -1,0 +1,23 @@
+
+.calender
+{
+	/* TODO:edit here */
+
+}
+
+.ACalendarPicker-Style{
+	width: 120px !important;
+	height: 40px !important;
+	background-color: inherit !important;
+	border: 0 !important;
+	border-bottom: 1px solid #ebebeb !important;
+}
+
+.ACalendarPicker-Style input {
+	width: 100% !important;
+	height: 100% !important;
+	border: 0 !important;
+	outline: none !important;
+	text-align: center !important;
+}
+

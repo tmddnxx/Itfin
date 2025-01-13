@@ -1,0 +1,1 @@
+class EXCenterPivotViewEvent extends AViewEvent{constructor(e){super(e)}}window.EXCenterPivotViewEvent=EXCenterPivotViewEvent;

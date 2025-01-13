@@ -1,0 +1,6 @@
+{
+  "styleName": "calender",
+  "items": {
+    "calender": "\r\n.calender\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n\r\n.ACalendarPicker-Style{\r\n\twidth: 120px;\r\n\theight: 40px;\r\n\tbackground-color: inherit;\r\n\tborder: 0;\r\n\tborder-bottom: 1px solid #ebebeb;\r\n}\r\n\r\n.ACalendarPicker-Style input {\r\n\twidth: 100%;\r\n\theight: 100%;\r\n\tborder: 0;\r\n\toutline: none;\r\n\ttext-align: center;\r\n}"
+  }
+}

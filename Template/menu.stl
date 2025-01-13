@@ -1,0 +1,6 @@
+{
+  "styleName": "menu",
+  "items": {
+    "menu": "\r\n.menu\r\n{\t\r\n\theight: auto;\r\n\tdisplay: none;\r\n\tz-index: 999;\r\n\tgap: 10px;\r\n}\r\n\r\n@media screen and (max-width : 2284px){\r\n\t.menu{\r\n\t\tdisplay: none;\r\n\t\tflex-direction: column;\r\n\t}\r\n\t.menu_div {\r\n        display: block;\r\n        position: relative; \r\n        width: auto; \r\n        background-color: #fff;\r\n        z-index: 1000; \r\n        padding: 10px;\r\n      }\r\n\r\n\t.header-left{\r\n\t\tdisplay: none;\r\n\t}\r\n\t.menuIcon{\r\n\t\tdisplay: block;\r\n\t\tbackground-size: 30px 30px;\r\n\t\tbackground-color: inherit !important;\r\n\t}\r\n}\r\n\r\n.menuIcon.active + .menu{\r\n\tdisplay: flex;\r\n}\r\n\r\n.div_active{\r\n\tborder: 1px solid #ebebeb;\r\n\theight: 350px;\r\n\tborder-radius: 8px;\r\n\tbox-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n.menu .ACalendarPicker-Style{\r\n\twidth: 100%;\r\n}"
+  }
+}

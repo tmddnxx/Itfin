@@ -1,0 +1,7 @@
+{
+  "styleName": "accordion",
+  "items": {
+    "accordion": "\r\n.accordion\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n\r\n.AAccordion-Menu{\r\n\theight: 30px;\r\n    line-height: 30px;\r\n    padding-left: 40px;\r\n    font-size: 12pt;\r\n    font-weight: 800;\r\n    font-family: 나눔;\r\n    background-position: 20px center;\r\n    display: flex;\r\n    align-items: center;\r\n    cursor: pointer;\r\n    background-color: #fafafa;\r\n}\r\n\r\n.AAccordion-Contents{\r\n    border-bottom: 1px solid #ebebeb;\r\n    \r\n}",
+    "card": ".card\r\n{\r\n\tposition: relative;\r\n\twidth: 120px;\r\n\theight: 120px;\r\n\tborder-radius: 4px;\r\n\tbackground-color: rgb(255, 255, 255);\r\n\tborder-width: 1px;\r\n\tborder-style: solid;\r\n\tborder-color: rgb(235, 235, 235);\r\n\tbox-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\r\n\tmargin-left: 0px;\r\n\tdisplay: flex;\r\n    gap: 15px;\r\n\tflex-direction: column;\r\n    transition: transform 0.2s ease-in-out;\r\n    cursor: pointer;\r\n}\r\n.card:hover {\r\n    transform: translateY(-5px); \r\n}\r\n.card_label{\r\n    width: 100%;\r\n    text-align: center;\r\n    font-size: 15pt;\r\n    font-family: '나눔';\r\n    white-space: nowrap;\r\n    overflow: hidden;\r\n    text-overflow: ellipsis;\r\n    display: inline-block;\r\n}\r\n.name {\r\n    font-weight: 800;\r\n\r\n}\r\n.code {\r\n    font-size: 12pt;\r\n}\r\n.card_chkBox{\r\n    position: absolute;\r\n    margin: 0;\r\n    width: 15px;\r\n    height: 15px;\r\n    top: 5px;\r\n    left: 5px;\r\n}"
+  }
+}

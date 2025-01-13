@@ -1,0 +1,7 @@
+{
+  "styleName": "grid",
+  "items": {
+    "grid": "\r\n.grid\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "head-prop": ".head-prop\r\n{\r\n \tbackground-color: #e0f7fa; /* 연한 파란색 */\r\n    color: #333333; /* 어두운 회색 텍스트 */\r\n    padding: 15px;\r\n    font-size: 1.2em;\r\n    font-weight: bold;\r\n    text-align: center;\r\n    border-radius: 8px 8px 0 0; /* 둥근 모서리 */\r\n}\r\n\r\n.head-prop td {\r\n\tposition: relative;\r\n}"
+  }
+}

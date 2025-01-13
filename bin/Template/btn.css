@@ -1,0 +1,132 @@
+
+.btn
+{
+	transition: transform 0.3s ease !important;
+}
+.btn:hover{
+	transform: translateY(-5px) !important;
+}
+.btnWrap{
+	width: 100% !important;
+	position: relative !important;
+	left: 0px !important;
+	height: 50px !important;
+	justify-content: center !important;
+	align-items: center !important;
+	gap: 30px !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	border-bottom: 1px solid #ebebeb !important;
+	padding-bottom: 10px !important;
+	display: flex !important;
+	
+}
+
+.itemSelectBtn{
+	width: 80px !important;
+	height: 40px !important;
+	position: relative !important;
+	border-radius: 8px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-color: rgb(235, 235, 235) !important;
+	color: rgb(255, 255, 255) !important;
+	cursor: pointer !important;
+	margin-top: 0px !important;
+	background-color: rgb(0, 123, 255) !important;
+}
+
+.itemRemoveBtn{
+	width: 80px !important;
+	height: 40px !important;
+	position: relative !important;
+	margin-left: 0px !important;
+	border-radius: 8px !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-color: rgb(235, 235, 235) !important;
+	left: 0px !important;
+	top: 0px !important;
+	color: rgb(255, 255, 255) !important;
+	cursor: pointer !important;
+	background-color: rgb(220, 53, 69) !important;
+}
+
+.defaultBtn
+{
+	background-color: inherit !important;
+}
+
+.nameBtn {
+    position: absolute !important;
+    right: 30px !important;
+    background-color: transparent !important;
+    color: black !important;
+    border: 0 !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    background-image: url(../Assets/free-icon-pencil-1828920.png) !important;
+    background-size: 16px 16px !important; 
+    background-repeat: no-repeat !important; 
+    background-position: left center !important; 
+    padding-left: 15px !important; 
+    height: 30px !important; 
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+}
+
+.removeBtn
+{
+	position: absolute !important;
+	right: 5px !important;
+	background-color:transparent !important;
+	border: 0 !important;
+	border-radius: 4px !important;
+	color: white !important;
+	cursor: pointer !important;
+	background-image: url(../Assets/free-icon-delete-7838444.png) !important;
+    background-size: 16px 16px !important; 
+    background-repeat: no-repeat !important; 
+    background-position: left center !important; 
+    padding-left: 15px !important; 
+    height: 30px !important; 
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+}
+
+.menuCheckbox
+{
+	width: 15px !important;
+	height: 15px !important;
+	position: absolute !important;
+	left: 0 !important;
+	
+}
+
+.dateBtn
+{
+	
+}
+.click{
+	font-weight: 900 !important;
+	color: black !important;
+	background-color: grey !important;
+	border-radius: 50px !important;
+	
+}
+
+.mkSortBtn
+{
+	position: absolute !important;
+	background-color: inherit !important;
+	right: 20px !important;
+	width: 20px !important;
+	height: 20px !important;
+	background-image: url(../Assets/sort.png) !important;
+	background-size: 20px 20px !important;
+	background-repeat: no-repeat !important;
+	border: 0 !important;
+	cursor: pointer !important;
+}
+

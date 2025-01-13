@@ -1,0 +1,1 @@
+class EXJisooChartEvent extends AEvent{constructor(t){super(t)}}window.EXJisooChartEvent=EXJisooChartEvent;

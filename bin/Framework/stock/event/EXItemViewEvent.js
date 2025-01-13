@@ -1,0 +1,1 @@
+class EXItemViewEvent extends AViewEvent{constructor(e){super(e)}}(window.EXItemViewEvent=EXItemViewEvent).prototype.change=function(){};

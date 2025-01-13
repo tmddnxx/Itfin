@@ -1,0 +1,208 @@
+<div data-base="AView" data-class="MainView" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255); border-style: solid; border-color: rgba(0, 0, 0, 0); font-family: 나눔;" data-browser-width="1790" data-browser-height="860" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ASelectBox&quot;,&quot;ATextField&quot;,&quot;ALabel&quot;,&quot;ACalendarPicker&quot;,&quot;AButton&quot;,&quot;AAccordion&quot;,&quot;AGrid&quot;],&quot;stock&quot;:[&quot;CandleChart&quot;]}" data-max-alabel="1"
+    ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; left: 0px; height: 100px; top: 0px; background-color: rgb(255, 255, 255); padding-left: 20px; display: flex; margin-left: 0px; margin-top: 0px;" id="MainView--header"
+        ><div data-base="AView" data-class="AView" class="AView-Style header-left" style="width: 40%; height: 100%; position: relative; left: 0px; top: 0px; display: flex; align-items: center; background-color: rgb(255, 255, 255); flex-grow: 1;" data-style="header-left"
+            ><select data-base="ASelectBox" data-class="ASelectBox" class="ASelectBox-Style" style="width: 100px; height: 40px; position: relative; vertical-align: top; margin-right: 20px; border: 0;     border-bottom: 1px solid rgb(235, 235, 235); outline: none; cursor: pointer;" id="MainView--selectBox"
+                ><option value="likeItmsNm">종목명</option
+                ><option value="likeSrtnCd">종목코드</option
+            ></select
+            ><input data-base="ATextField" data-class="ATextField" type="text" value="" class="ATextField-Style" autocomplete="off" style="width: 200px; height: 40px; position: relative; vertical-align: top; margin-right: 20px;     border: 0;     outline: none;     border-bottom: 1px solid #ebebeb;" placeholder="검색어" id="MainView--searchInput" data-listener-keydown="MainView:onSearchInputKeydown"
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="height: 40px; position: relative; display: flex; align-items: center; gap: 10px; background-color: rgba(0, 0, 0, 0); width: auto; margin-right: 20px;"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 48px; height: 40px; position: relative; vertical-align: baseline; line-height: 40px;">시작일자</label
+                ><div data-base="ACalendarPicker" data-class="ACalendarPicker" class="ACalendarPicker-Style calender" style="position: relative; width: 100px; border: 0; border-bottom: 1px solid #ebebeb; height: 40px; font-size: 12pt; background-color: rgba(0, 0, 0, 0);" id="MainView--beginBasDt" data-blocks-te3000="InBlock1,start_date" data-blocks-te3010="InBlock1,start_date" data-blocks-te3020="InBlock1,start_date" data-blocks-te3030="InBlock1,start_date" data-style="calender"
+                    ><div style="width:100%; height:100%"
+                        ><div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true"
+                            ><input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2025-01-13" autocomplete="off"
+                            ><button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-listener-click="ACalendarPickerItem:onClickCal" tabindex="-1"></button
+                        ></div
+                    ></div
+                ></div
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 40px; position: relative; display: flex; align-items: center; gap: 10px; background-color: rgba(0, 0, 0, 0); margin-right: 20px;"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 48px; height: 40px; position: relative; line-height: 40px;">종료일자</label
+                ><div data-base="ACalendarPicker" data-class="ACalendarPicker" class="ACalendarPicker-Style calender" style="position: relative; border: 0;     border-bottom: 1px solid #ebebeb; height: 40px; font-size: 12pt; left: 0px; width: 150px;" data-blocks-te3000="InBlock1,end_date" data-blocks-te3010="InBlock1,end_date" data-blocks-te3020="InBlock1,end_date" data-blocks-te3030="InBlock1,end_date" data-style="calender" id="MainView--endBasDt"
+                    ><div style="width:100%; height:100%"
+                        ><div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true"
+                            ><input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2025-01-13" autocomplete="off"
+                            ><button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-listener-click="ACalendarPickerItem:onClickCal" tabindex="-1"></button
+                        ></div
+                    ></div
+                ></div
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 20px; height: 20px; position: relative; background-image: url(&quot;C:/Users/IT_84/Desktop/query_LSW/query_test/Assets/free-icon-reload-8902020.png&quot;); background-repeat: no-repeat; background-size: contain; background-color: rgba(0, 0, 0, 0); transform: rotate(50deg); outline: none; cursor: pointer;" data-background-option="fit" id="MainView--dateReset" data-listener-click="MainView:onDateResetClick" data-style-down=" defaultBtn"></button
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 40px; position: relative; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex; margin-right: 20px;"
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 40px; position: relative; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51); margin-right: 20px; border-radius: 8px; cursor: pointer;" id="MainView--checkBtn" data-listener-click="MainView:onCheckBtnClick" data-style="btn">조회</button
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 40px; position: relative; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51); margin-top: 0px; border-radius: 8px; cursor: pointer;" id="MainView--nextBtn" data-listener-click="MainView:onNextBtnClick" data-style="btn">다음</button
+            ></div
+        ></div
+        ><div data-base="AView" data-class="AView" class="AView-Style menu_div" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); padding: 10px; display: none;" data-style="menu_div" id="MainView--menu_div"
+            ><button data-base="AButton" data-class="AButton" class="AButton-Style menuIcon" style="height: 30px; position: relative; cursor: pointer; width: 30px; top: 0px; background-image: url(&quot;Assets/hamburger.png&quot;); background-repeat: no-repeat; background-color: rgba(0, 0, 0, 0); display: none;" id="MainView--menuIcon" data-listener-click="MainView:onMenuIconClick" data-style="menuIcon" contenteditable="true" data-original-text="햄버거" data-style-down="menuIcon"></button
+            ><div data-base="AView" data-class="AView" class="AView-Style menu" style="width: 400px; height: 100%; position: relative; left: 0px; top: 0px; flex-direction: column; align-items: center; background-color: rgb(255, 255, 255); flex-grow: 1; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; display: none;" id="MainView--menu" data-style="menu"
+                ><select data-base="ASelectBox" data-class="ASelectBox" class="ASelectBox-Style" style="width: 100%; height: 40px; position: relative; vertical-align: top; margin-right: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(235, 235, 235); outline: none; cursor: pointer;     text-align: center;" id="MainView--selectBox2"
+                    ><option value="likeItmsNm">종목명</option
+                    ><option value="likeSrtnCd">종목코드</option
+                ></select
+                ><input data-base="ATextField" data-class="ATextField" type="text" value="" class="ATextField-Style" autocomplete="off" style="width: 100%; height: 40px; position: relative; vertical-align: top; margin-right: 20px; border-width: 0px 0px 1px; border-top-style: initial; border-right-style: initial; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-left-color: initial; border-image: initial; outline: none; border-bottom-style: solid; border-bottom-color: rgb(235, 235, 235); text-align: center;" placeholder="검색어" id="MainView--searchInput2" data-listener-keydown="MainView:onSearchInputKeydown"
+                ><div data-base="AView" data-class="AView" class="AView-Style" style="height: 40px; position: relative; display: flex; align-items: center; gap: 10px; background-color: rgba(0, 0, 0, 0); width: 100%; margin-right: 20px;"
+                    ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 48px; height: 40px; position: relative; vertical-align: baseline; line-height: 40px; cursor: text;" contenteditable="true" data-original-text="시작일자">시작일</label
+                    ><div data-base="ACalendarPicker" data-class="ACalendarPicker" class="ACalendarPicker-Style calender" style="position: relative; width: 100px; border: 0; border-bottom: 1px solid #ebebeb; height: 40px; font-size: 12pt; background-color: rgba(0, 0, 0, 0);" id="MainView--beginBasDt2" data-blocks-te3000="InBlock1,start_date" data-blocks-te3010="InBlock1,start_date" data-blocks-te3020="InBlock1,start_date" data-blocks-te3030="InBlock1,start_date" data-style="calender"
+                        ><div style="width:100%; height:100%"
+                            ><div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true"
+                                ><input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2025-01-13" autocomplete="off"
+                                ><button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-listener-click="ACalendarPickerItem:onClickCal" tabindex="-1"></button
+                            ></div
+                        ></div
+                    ></div
+                ></div
+                ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 40px; position: relative; display: flex; align-items: center; gap: 10px; background-color: rgba(0, 0, 0, 0); margin-right: 20px;"
+                    ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 48px; height: 40px; position: relative; line-height: 40px;">종료일</label
+                    ><div data-base="ACalendarPicker" data-class="ACalendarPicker" class="ACalendarPicker-Style calender" style="position: relative; border: 0;     border-bottom: 1px solid #ebebeb; height: 40px; font-size: 12pt; left: 0px; width: 150px;" data-blocks-te3000="InBlock1,end_date" data-blocks-te3010="InBlock1,end_date" data-blocks-te3020="InBlock1,end_date" data-blocks-te3030="InBlock1,end_date" data-style="calender" id="MainView--endBasDt2"
+                        ><div style="width:100%; height:100%"
+                            ><div data-base="AView" class="AView-Style ACalendarPicker-Style" data-class="ACalendarPickerItem" data-day-mode="0" data-multi-mode="0" data-format="yyyy-MM-dd" style="width: 100%; height: 100%; left: 0px; top: 0px; border: 1px solid rgb(187, 187, 187);" data-work-size="60px|40px|325px|32px" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ATextField&quot;,&quot;AButton&quot;]}" data-fullview="true"
+                                ><input data-listener-change="ACalendarPickerItem:onChange" data-listener-blur="ACalendarPickerItem:onBlur" data-listener-keyup="ACalendarPickerItem:onKeyup" data-base="ATextField" data-class="ATextField" class="ATextField-Style" data-listener-focus="ACalendarPickerItem:onFocus" pattern="" type="text" value="2025-01-13" autocomplete="off"
+                                ><button class="AButton-Style Calendar_Button Calendar_Button_Down" data-base="AButton" data-class="AButton" data-listener-click="ACalendarPickerItem:onClickCal" tabindex="-1"></button
+                            ></div
+                        ></div
+                    ></div
+                    ><button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 20px; height: 20px; position: absolute;     right: 0; background-image: url(&quot;C:/Users/IT_84/Desktop/query_LSW/query_test/Assets/free-icon-reload-8902020.png&quot;); background-repeat: no-repeat; background-size: contain; background-color: rgba(0, 0, 0, 0); transform: rotate(50deg); outline: none; cursor: pointer;" data-background-option="fit" id="" data-listener-click="MainView:onDateResetClick" data-style-down=" defaultBtn"></button
+                ></div
+                ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 40px; position: relative; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex; margin-top: 20px; justify-content: center;"
+                    ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 40px; position: relative; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51); margin-right: 20px; border-radius: 8px; cursor: pointer;" id="" data-listener-click="MainView:onCheckBtnClick" data-style="btn">조회</button
+                    ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 40px; position: relative; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51); margin-top: 0px; border-radius: 8px; cursor: pointer;" data-listener-click="MainView:onNextBtnClick" id="MainView--nextBtn2" data-style="btn">다음</button
+                ></div
+            ></div
+        ></div
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; top: 0px; left: 0px; display: flex; align-items: center; flex-grow: 1; background-color: rgb(255, 255, 255);"
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; background-color: rgba(0, 0, 0, 0); z-index: 999; color: rgb(0, 0, 0); left: 50%; transform: translate(-50%, 0px); font-size: 12pt; font-weight: bold;">KOSPI</label
+                ><div data-base="CandleChart" data-class="CandleChart" class="CandleChart-Style" data-mode="1" data-intervals="1" data-indicator="7" style="width: 100%; height: 100px; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;" data-color-text="rgba(0, 0, 0, 0)" data-color-divline="rgba(0, 0, 0, 0)" data-color-line="rgb(255, 0, 0)" data-color-uptext="rgb(0, 0, 0)" id="MainView--kospiChart" data-color-dot="rgba(0, 0, 0, 0)" data-color-downbg="rgb(7, 163, 163)" data-color-downtext="rgb(0, 0, 0)" data-color-upbg="rgb(169, 21, 5)"
+                    ><canvas width="461" height="100" style="background-color: transparent; width: 461px; height: 100px;"></canvas
+                    ><div class="chart-vline" style="display: none;"></div
+                    ><div class="chart-hline" style="display: none;"></div
+                    ><div class="chart-zoomLay" style="display: none;"
+                        ><div class="chart-zoomIn">+</div
+                        ><div class="chart-zoomOut">-</div
+                    ></div
+                    ><div class="chart-info" style="display: none;"></div
+                ></div
+            ></div
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);"
+                ><label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: absolute; background-color: rgba(0, 0, 0, 0); z-index: 999; color: rgb(0, 0, 0); left: 50%; transform: translate(-50%, 0px); font-size: 12pt; font-weight: bold;">KOSDAQ</label
+                ><div data-base="CandleChart" data-class="CandleChart" class="CandleChart-Style" data-mode="1" data-intervals="1" data-indicator="7" style="width: 100%; height: 100%; position: relative; margin-left: 0px;" data-color-text="rgba(0, 0, 0, 0)" data-color-divline="rgba(0, 0, 0, 0)" data-color-line="rgb(255, 0, 0)" data-color-uptext="rgb(0, 0, 0)" data-touch-event="false" id="MainView--kosdaqChart" data-color-up="rgba(0, 0, 0, 0)" data-color-down="rgba(0, 0, 0, 0)" data-color-dot="rgba(0, 0, 0, 0)"
+                    ><canvas width="461" height="100" style="background-color: transparent; width: 461px; height: 100px;"></canvas
+                    ><div class="chart-vline" style="display: none;"></div
+                    ><div class="chart-hline" style="display: none;"></div
+                    ><div class="chart-zoomLay" style="display: none;"
+                        ><div class="chart-zoomIn">+</div
+                        ><div class="chart-zoomOut">-</div
+                    ></div
+                    ><div class="chart-info" style="display: none;"></div
+                ></div
+            ></div
+        ></div
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; left: 0px; background-color: rgb(255, 255, 255); float: right; margin-top: 0px; top: 0px; display: flex; align-items: center; padding-right: 20px; padding-left: 20px;"
+            ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 40px; position: relative; border-style: solid; border-color: rgb(255, 255, 255); float: right; background-color: rgb(255, 87, 34); color: rgb(255, 255, 255); border-radius: 8px; border-width: 0px; cursor: pointer; margin-left: 0px;" id="MainView--addStock" data-listener-click="MainView:onAddStockClick" data-style="btn">관심종목 등록</button
+        ></div
+    ></div
+    ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; top: 0px; left: 0px; height: calc((100% - 0px) - 100px); margin-left: 0px; margin-top: 0px; display: flex;" id="MainView--main" data-sgap-height="1"
+        ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 450px; height: 100%; position: relative; top: 0px; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(235, 235, 235);"
+            ><div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; left: 0px; background-color: rgb(255, 255, 255); height: 70px; margin-left: 0px; display: flex; align-items: center; padding-left: 10px; padding-right: 10px;     justify-content: space-around;"
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 50px; position: relative; background-color: rgb(0, 123, 255); border-radius: 8px; color: rgb(255, 255, 255); cursor: pointer;" data-listener-click="MainView:chkBoxBtn" id="MainView--chkBtn" data-style="btn">전체선택</button
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 50px; position: relative; background-color: rgb(40, 167, 69); border-radius: 8px; color: rgb(255, 255, 255); cursor: pointer;" id="MainView--addGroupBtn" data-listener-click="MainView:onAddGroupBtnClick" data-style="btn">관심그룹 추가</button
+                ><button data-base="AButton" data-class="AButton" class="AButton-Style btn" style="width: 100px; height: 50px; position: relative; background-color: rgb(220, 53, 69); border-radius: 8px; color: rgb(255, 255, 255); cursor: pointer;" id="MainView--chkRemoveBtn" data-listener-click="MainView:onChkRemoveBtnClick" data-style="btn">선택삭제</button
+            ></div
+            ><div data-base="AAccordion" data-class="AAccordion" class="AAccordion-Style" style="width: 100%; height: calc((100% - 0px) - 70px); position: relative; top: 0px; left: 0px; overflow: hidden auto; padding-bottom: 30px; background-color: rgb(255, 255, 255); margin-left: 0px; margin-top: 0px;" id="MainView--accordion" data-sgap-height="1" data-show-content="1"></div
+        ></div
+        ><div data-base="AGrid" data-class="AGrid" data-selectable="true" data-clear-rowtmpl="true" data-ver="3301" class="AGrid-Style overflow-x" data-hide-footer="true" style="height: 100%; position: relative; left: 0px; top: 0px; width: calc((100% - 0px) - 450px); visibility: visible; overflow: auto; margin-top: 0px; margin-left: 0px; font-family: 나눔;" data-sgap-width="1" data-style=" overflow-x" data-listener-select="MainView:onGridSelect" data-listener-scrollbottom="MainView:onGridScrollbottom" id="MainView--grid" data-fullrow-select="true"
+            ><div class="grid-scroll-area" style=""
+                ><table class="grid-header-table" align="center"
+                    ><colgroup
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                    ></colgroup
+                    ><thead align="center" class="head-prop" style="display: table-header-group;"
+                        ><tr height="30"
+                            ><td class="" style="">기준일</td
+                            ><td class="" style="">종목코드</td
+                            ><td class="" style="">ISIN 코드</td
+                            ><td class="" style="">시장 종류</td
+                            ><td class="" style="">종목명</td
+                            ><td class="" style="">법인등록번호</td
+                            ><td class="" style="">법인명</td
+                        ></tr
+                    ></thead
+                ></table
+                ><table class="grid-body-table" align="center"
+                    ><colgroup
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                    ></colgroup
+                    ><thead align="center" class="head-prop"
+                        ><tr height="30" style="height: 0px;"
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td class=""></td
+                            ><td></td
+                            ><td></td
+                        ></tr
+                    ></thead
+                    ><tbody align="center" class="body-prop"
+                        ><tr height="22px"
+                            ><td class="" style="" data-maskfunc="Date.date" data-maskparam="[&quot;-&quot;]" data-maskorigin=""></td
+                            ><td class="" style=""></td
+                            ><td class="" style=""></td
+                            ><td class="" data-maskfunc="customFmt.marketColor" data-maskparam="[]" data-maskorigin=""></td
+                            ><td class="" data-maskfunc="customFmt.trim" data-maskparam="[]" data-maskorigin=""></td
+                            ><td class=""></td
+                            ><td class=""></td
+                        ></tr
+                    ></tbody
+                ></table
+                ><table class="grid-footer-table" align="center"
+                    ><colgroup
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                        ><col width="100px"
+                    ></colgroup
+                    ><thead align="center" class="head-prop"
+                        ><tr height="0px"
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                        ></tr
+                    ></thead
+                    ><tfoot align="center" class="foot-prop" style="display: none;"
+                        ><tr height="22px"
+                            ><td>col1</td
+                            ><td>col2</td
+                            ><td>col3</td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                            ><td></td
+                        ></tr
+                    ></tfoot
+                ></table
+            ></div
+        ></div
+    ></div
+></div>

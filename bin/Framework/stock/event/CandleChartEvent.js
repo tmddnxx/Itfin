@@ -1,0 +1,1 @@
+class CandleChartEvent extends AEvent{constructor(n){super(n)}}(window.CandleChartEvent=CandleChartEvent).prototype.change=function(){};

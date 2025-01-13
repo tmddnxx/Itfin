@@ -1,0 +1,1 @@
+class ChartViewEvent extends AViewEvent{constructor(e){super(e)}}window.ChartViewEvent=ChartViewEvent;

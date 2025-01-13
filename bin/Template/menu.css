@@ -1,0 +1,48 @@
+
+.menu
+{	
+	height: auto !important;
+	display: none !important;
+	z-index: 999 !important;
+	gap: 10px !important;
+}
+
+@media screen and (max-width : 2284px){
+	.menu{
+		display: none !important;
+		flex-direction: column !important;
+	}
+	.menu_div {
+        display: block !important;
+        position: relative !important; 
+        width: auto !important; 
+        background-color: #fff !important;
+        z-index: 1000 !important; 
+        padding: 10px !important;
+      }
+
+	.header-left{
+		display: none !important;
+	}
+	.menuIcon{
+		display: block !important;
+		background-size: 30px 30px !important;
+		background-color: inherit !important;
+	}
+}
+
+.menuIcon.active + .menu{
+	display: flex !important;
+}
+
+.div_active{
+	border: 1px solid #ebebeb !important;
+	height: 350px !important;
+	border-radius: 8px !important;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu .ACalendarPicker-Style{
+	width: 100% !important;
+}
+
