@@ -20,6 +20,12 @@
             "name": "stock",
             "relType": 7,
             "path": "stock\\"
+          },
+          {
+            "type": 11,
+            "name": "mdfc",
+            "relType": 7,
+            "path": "mdfc\\"
           }
         ]
       },

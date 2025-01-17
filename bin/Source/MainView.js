@@ -11,7 +11,7 @@ MainView = class MainView extends AView
         this.isCheck = false; // 조회버튼 클릭 후 다음버튼 클릭하도록
         this.btnCheck = false; // 연쇄버튼작용  막도록
         this.searchData = {};
-        this.selectData = {}; 
+        this.selectData = []; 
         
         this.data = []; // 조회목록 ( 정렬 )
         
@@ -46,9 +46,11 @@ MainView = class MainView extends AView
 	{
         super.onActiveDone(isFirst)
         this.setDefaultGroup(); // 관심종목 001 기본값 설정
-        this.beginBasDt.setDate(this.getPrevDate()); // 시작날짜 1달전 세팅
-        this.beginBasDt2.setDate(this.getPrevDate());
+        
         this.getGroupList('groupList'); // 관심그룹 불러오기
+        this.basDt.setDate(this.getCurrentDate());
+        this.basDt2.setDate(this.getCurrentDate());
+
 
         // 조회버튼 누르고 다음 버튼 누르도록
         this.nextBtn.enable(this.isCheck);
@@ -60,21 +62,21 @@ MainView = class MainView extends AView
         this.drawKospi();   // 헤더 코스피차트
         this.drawKosdaq(); // 헤더 코스닥차트
 
-        this.preventResizeScrollFunc();
+        // this.preventResizeScrollFunc();
         
 	}
     
     // 브라우저 리사이징시 스크롤이벤트 막기
-    preventResizeScrollFunc(){
-        const thisObj = this;
-        window.addEventListener('resize', function() {
-            thisObj.isResizing = true;
+    // preventResizeScrollFunc(){
+    //     const thisObj = this;
+    //     window.addEventListener('resize', function() {
+    //         thisObj.isResizing = true;
 
-            setTimeout(function() {
-                thisObj.isResizing = false;
-            }, 500);
-        })
-    }
+    //         setTimeout(function() {
+    //             thisObj.isResizing = false;
+    //         }, 500);
+    //     })
+    // }
 
     // 헤더 코스피차트
     async drawKospi(){
@@ -183,11 +185,9 @@ MainView = class MainView extends AView
         // 검색할땐 파라미터 추가
         if(searchData && Object.keys(searchData).length > 0){ // 검색데이터가 존재하면 
             params.append(searchData.type, searchData.text);
-            params.append("beginBasDt", searchData.beginBasDt);
-            params.append("endBasDt", searchData.endBasDt);
+            params.append("basDt", searchData.basDt);
         }else{ // 첫 자동조회 후 다음페이지는 기본값으로 전달
-            params.append("beginBasDt", `${this.getPrevDate().year}${this.getPrevDate().month}${this.getPrevDate().day}`);
-            params.append("endBasDt", `${this.getCurrentDate().year}${this.getCurrentDate().month}${this.getCurrentDate().day}`);
+            params.append("basDt", `${this.getCurrentDate().year}${this.getCurrentDate().month}${this.getCurrentDate().day}`);
         }
         
         let responseCopy;
@@ -217,10 +217,12 @@ MainView = class MainView extends AView
                 return acc;
             }, new Map());
 
+            
+
             const filterArray = Array.from(filterItems.values());
             
             this.data.push(...filterArray);
-            console.log(items);
+            
             if(items.length === 0){
                 AToast.show("검색 결과가 없습니다.");
                 return;
@@ -259,7 +261,7 @@ MainView = class MainView extends AView
             this.isCheck = true;
 
             AIndicator.hide();
-            
+            this.gridRowCheck(); // 모든 row 체크박스 
         }
     }
     
@@ -267,9 +269,27 @@ MainView = class MainView extends AView
     createSortIcon(){
          
         const thisObj = this;
-        const head_market = $('.head-prop').find('td')[3];
-        const head_date = $('.head-prop').find('td')[0];
-        const head_name = $('.head-prop').find('td')[4];
+        const head_market = $('.head-prop').find('td')[4];
+        const head_date = $('.head-prop').find('td')[1];
+        const head_name = $('.head-prop').find('td')[5];
+        const head_check = $('.head-prop').find('td')[0];
+
+        // 체크박스
+        const head_checkbox = $('<input>').addClass('gridCheckbox');
+        $(head_checkbox).attr('id', 'head_checkbox');  
+        $(head_checkbox).attr('type', 'checkbox'); 
+        $(head_checkbox).on('click', function(){
+            thisObj.gridHeadCheck(); // 헤더 체크박스 체크시 row의 체크박스도 체크됨
+        })
+        $(head_checkbox).on('change', function(){
+            if ($(this).prop('checked')) {
+                $(this).addClass('checked');  // 체크되었을 때 'checked' 클래스 추가
+            } else {
+                $(this).removeClass('checked');  // 체크 해제되었을 때 'checked' 클래스 제거
+            }
+        })
+
+        $(head_check).append(head_checkbox);
 
         // 시장종류 정렬 버튼
         const market_sortBtn = $('<button></button>').addClass('mkSortBtn');
@@ -278,12 +298,12 @@ MainView = class MainView extends AView
             thisObj.onSortClick('market', $(market_sortBtn).hasClass('isFirst')); // 클릭 시 정렬
         });
 
-        // 날짜 정렬 버튼
-        const date_sortBtn = $('<button></button>').addClass('mkSortBtn');
-        $(date_sortBtn).on('click', function() {
-            $(date_sortBtn).toggleClass('isFirst'); // 클래스 토글
-            thisObj.onSortClick('date', $(date_sortBtn).hasClass('isFirst')); // 클릭 시 정렬
-        });
+        // // 날짜 정렬 버튼
+        // const date_sortBtn = $('<button></button>').addClass('mkSortBtn');
+        // $(date_sortBtn).on('click', function() {
+        //     $(date_sortBtn).toggleClass('isFirst'); // 클래스 토글
+        //     thisObj.onSortClick('date', $(date_sortBtn).hasClass('isFirst')); // 클릭 시 정렬
+        // });
 
         // 종목명 정렬 버튼
         const name_sortBtn = $('<button></button>').addClass('mkSortBtn');
@@ -293,7 +313,7 @@ MainView = class MainView extends AView
         });
 
         $(head_market).append(market_sortBtn);
-        $(head_date).append(date_sortBtn);
+        // $(head_date).append(date_sortBtn);
         $(head_name).append(name_sortBtn);
 
         const $grid = this.grid.get$ele();
@@ -310,6 +330,40 @@ MainView = class MainView extends AView
             
             thisObj.removeItems(menu, [index]);
         })
+
+        
+    }
+
+    // 그리드 헤더 체크박스
+    gridHeadCheck(){
+        const head_checkbox = document.getElementById('head_checkbox'); 
+        const isChecked = head_checkbox.checked;
+        const checkboxes = document.querySelectorAll('.gridCheckBox');
+        const thisObj = this;
+
+        checkboxes.forEach(chkBox => {
+            chkBox.checked = isChecked;
+            
+            const row = chkBox.parentNode.parentNode.childNodes;
+                
+            const selectData = {
+                market : row[4].innerText,
+                name : row[5].innerText,
+                code : row[2].innerText,
+            }
+            
+            if(chkBox.checked){
+                const isAlreadySelected = thisObj.selectData.some(item => item.code === selectData.code);
+                if (!isAlreadySelected) {
+                    thisObj.selectData.push(selectData);
+                }
+            }else{
+                thisObj.selectData = thisObj.selectData.filter(item => item.code !== selectData.code);
+            }
+            
+        })
+        
+        
     }
 
     // 정렬버튼 
@@ -356,6 +410,7 @@ MainView = class MainView extends AView
             };
 
             this.data.sort(compare);
+            
             this.grid.removeAll();
             this.addRows(this.data);
         } finally {
@@ -370,7 +425,30 @@ MainView = class MainView extends AView
 
     // 행추가
     addRows(array){
+        
+        const newOrder = [
+            "checkBox", "basDt", "srtnCd", "isinCd", 
+            "mrktCtg", "itmsNm", "crno", "corpNm"
+        ];
+
+        array.forEach(item => {
+            item.checkBox = '체크박스';
+        });
+
+        array.forEach((item, index) => {
+            const reordered = {};  
+
+            newOrder.forEach(key => {
+                if (item.hasOwnProperty(key)) {
+                    reordered[key] = item[key];  
+                }
+            });
+
+            array[index] = reordered;
+        });
+        
         for(let i=0; i<array.length; i++){
+            
             this.grid.addRow(Object.values(array[i]));
         }
         
@@ -405,18 +483,16 @@ MainView = class MainView extends AView
     // 조회버튼
 	onCheckBtnClick(comp, info, e)
 	{   
-        let type, text, beginBasDt, endBasDt;
+        let type, text, basDt;
 
         if(!comp.compId){ // 반응형 검색
             type = this.selectBox2.getSelectedItemValue();
             text = this.searchInput2.getText();
-            beginBasDt = this.beginBasDt2.getDateString();
-            endBasDt = this.endBasDt2.getDateString();
+            basDt = this.basDt2.getDateString();
         }else{
             type = this.selectBox.getSelectedItemValue();
             text = this.searchInput.getText();
-            beginBasDt = this.beginBasDt.getDateString();
-            endBasDt = this.endBasDt.getDateString();
+            basDt = this.basDt.getDateString();
         }
 
         this.startIdx = 0;
@@ -427,8 +503,7 @@ MainView = class MainView extends AView
         const searchObj = {
             type : type,
             text : text,
-            beginBasDt: beginBasDt,
-            endBasDt : endBasDt,
+            basDt: basDt,   
         }
 
         this.searchData = searchObj;
@@ -486,8 +561,7 @@ MainView = class MainView extends AView
 	onDateResetClick(comp, info, e)
 	{
         
-		this.beginBasDt.setDate(this.getPrevDate());
-        this.endBasDt.setDate(this.getCurrentDate());
+        this.basDt.setDate(this.getCurrentDate());
 
 	}
 
@@ -516,19 +590,19 @@ MainView = class MainView extends AView
     }
 
     // 관심그룹 리스트가져오기
-    getGroupList(key){
+    async getGroupList(key) {
         const list = this.getItemFromLocal(key);
         this.accordion.removeAllItems();
 
-        list.forEach(item=> {
-            this.accordion.insertItem(item, 'Source/Items/Item.lay');
-        })
-        
-        setTimeout(()=> {
+        // 
+        for (const item of list) {
+            await this.accordion.insertItem(item, 'Source/Items/Item.lay', null, null, false, true);
+        }
+
+        setTimeout(() => {
             this.setBtnIcon();
             this.setGroupItem();
-        }, 100);
-        
+        }, 0);
     }
 
     // 그룹 기본값 설정
@@ -549,22 +623,49 @@ MainView = class MainView extends AView
 
 
     // 현 날짜 구하기
-    getCurrentDate(){
-       
+    getCurrentDate() {
         const today = new Date();
         const year = today.getFullYear();
-        const month = today.getMonth()+1;
-        const date = today.getDate();
+        let month = today.getMonth() + 1; // 월은 0부터 시작하므로 +1
+        let date = today.getDate();
 
-        const todyaObj = {
-            year : year,
-            month: month,
-            day : date,
+        // 월과 날짜를 두 자릿수 형식으로 변환 (01, 02, ..., 09 등)
+        month = month.toString().padStart(2, '0');
+        date = date.toString().padStart(2, '0');
+
+        // 영업일 확인 함수 (주말을 제외)
+        function isBusinessDay(date) {
+            const day = date.getDay();
+            return !(day === 0 || day === 6); // 주말(토요일(6)과 일요일(0))이면 영업일이 아님
         }
 
-        return todyaObj;
+        // 이전 영업일을 구하는 함수
+        function getPreviousBusinessDay(date) {
+            const prevDate = new Date(date);
+            
+            // 영업일이 아닌 경우 하루씩 빼면서 영업일을 찾음
+            do {
+                prevDate.setDate(prevDate.getDate() - 1);
+            } while (!isBusinessDay(prevDate));
+            
+            return prevDate;
+        }
+
+        // 오늘을 기준으로 가장 최신 영업일을 구하기
+        const previousBusinessDay = getPreviousBusinessDay(today);
+
+        // 연도, 월, 일 값이 바뀔 수 있도록 반환
+        let resultMonth = (previousBusinessDay.getMonth() + 1).toString().padStart(2, '0');
+        let resultDay = previousBusinessDay.getDate().toString().padStart(2, '0');
+
+        return {
+            year: previousBusinessDay.getFullYear(),
+            month: resultMonth,
+            day: resultDay
+        };
     }
 
+    
     // 한달 전 날짜 구하기
     getPrevDate() {
         const today = new Date();
@@ -601,18 +702,34 @@ MainView = class MainView extends AView
             
             menus.each(function() {
                 const $menu = $(this);
-                const contents = $(this).siblings('.AAccordion-Contents');
-                const $itemView = contents.find('.itemView');
+                const $content = $(this).siblings('.AAccordion-Contents');
+                const $itemView = $content.find('.itemView');
 
                 $menu.on('dragover', function(e){
                     e.preventDefault();
                 })
                 $menu.on('drop', function(e){
                     e.preventDefault();
-                    const data = e.originalEvent.dataTransfer.getData('application/json');
+                    const index = e.originalEvent.dataTransfer.getData('text/html'); // 종목의 인덱스값
+                    const menuText = e.originalEvent.dataTransfer.getData('text/plain'); // 기존에 있던 그룹이름
+                    const moveGroupName = $menu[0].textContent; // 이동할 그룹이름
+                    const data = e.originalEvent.dataTransfer.getData('application/json'); // 종목 데이터 (그리드 or 타 그룹)
+
+                    // 현재 그룹 내 이동이면 return
+                    if(moveGroupName == menuText){
+                        return;
+                    }
+                     
+                    // 데이터가 없으면 리턴
                     if(!data){
                         return;
                     }
+
+                    if(!data){
+                        return;
+                    }
+
+                    thisObj.removeItems(menuText, [index]); // 기존 그룹 관심종목 삭제
                     const selectData = JSON.parse(data);
                     
                     const groupName = e.currentTarget.innerText;
@@ -635,10 +752,22 @@ MainView = class MainView extends AView
                 $itemView.on('drop', function(e){
                     e.preventDefault();
 
-                    const data = e.originalEvent.dataTransfer.getData('application/json');
+                    const index = e.originalEvent.dataTransfer.getData('text/html'); // 종목의 인덱스값
+                    const menuText = e.originalEvent.dataTransfer.getData('text/plain'); // 기존에 있던 그룹이름
+                    const moveGroupName = $menu[0].textContent; // 이동할 그룹이름
+                    const data = e.originalEvent.dataTransfer.getData('application/json'); // 종목 데이터 (그리드 or 타 그룹)
+                    
+                    // 현재 그룹 내 이동이면 return
+                    if(moveGroupName == menuText){
+                        return;
+                    }
+                     
+                    // 데이터가 없으면 리턴
                     if(!data){
                         return;
                     }
+
+                    thisObj.removeItems(menuText, [index]); // 기존 그룹 관심종목 삭제
                     const selectData = JSON.parse(data);
 
                     const groupName = $menu[0].innerText;
@@ -846,8 +975,8 @@ MainView = class MainView extends AView
 	onAddStockClick(comp, info, e)
 	{   
         const thisObj = this;
-        const selectData = thisObj.selectData
-        if(!Object.keys(selectData).length){
+        const selectData = thisObj.selectData;
+        if(selectData.length === 0){
             AToast.show("종목을 선택해주세요.");
             return;
         }
@@ -862,31 +991,79 @@ MainView = class MainView extends AView
         dialog.open('Source/dialog/SelectGroup.lay', null, 200,200);
 		dialog.setResultCallback((value)=> { // 선택한 그룹 이름
             const list = thisObj.getItemFromLocal(value);
-            const exist = list.find(item => item.code === selectData.code);
-            if(!exist){
-                thisObj.addItemsToLocal(value, selectData, 'add');
-                thisObj.setGroupItem(); // 관심목록에 추가
-            }else{
+            let toastShown = false;  // 토스트 메시지가 한 번만 띄워지도록 체크하는 변수
+
+            selectData.forEach(item => {
+                const exist = list.find(groupItem => groupItem.code === item.code);
+                
+                if (!exist) {
+                    thisObj.addItemsToLocal(value, item, 'add');
+                    thisObj.setGroupItem(); // 관심목록에 추가
+                } else {
+                    toastShown = true;  
+                }
+            });
+
+            if(toastShown){
                 AToast.show("이미 관심그룹 내 동일종목이 있습니다.");
-                return;
+                toastShown = false;
             }
         })
-
-
 	}
+
+    // 그리드 체크박스 체크 selectData 주입/삭제
+    gridRowCheck(){
+        const thisObj = this;
+        const checkboxes = document.querySelectorAll('.gridCheckBox');
+        checkboxes.forEach(checkBox => {
+            checkBox.addEventListener('click', function(){
+                const row = this.parentNode.parentNode.childNodes;
+                
+                const selectData = {
+                    market : row[4].innerText,
+                    name : row[5].innerText,
+                    code : row[2].innerText,
+                }
+                
+                if(this.checked){
+                    const isAlreadySelected = thisObj.selectData.some(item => item.code === selectData.code);
+                    if (!isAlreadySelected) {
+                        thisObj.selectData.push(selectData);
+                    }
+                }else{
+                    thisObj.selectData = thisObj.selectData.filter(item => item.code !== selectData.code);
+                }
+            })
+        })
+
+    }
 
     // 그리드 종목 선택
 	onGridSelect(comp, info, e)
 	{
         const isHead = this.grid.isHeadCell(info);
         if(isHead) return;
-        
-        this.selectData = {
-            market : info[0].childNodes[3].innerText,
-            name : info[0].childNodes[4].innerText,
-            code : info[0].childNodes[1].innerText,
+
+        const checkbox = info[0].childNodes[0].childNodes[0];  // 체크박스
+        const isChecked = checkbox.checked;
+        checkbox.checked = !isChecked;  // 체크박스 상태 반전
+
+
+        const selectData = {
+            market : info[0].childNodes[4].innerText,
+            name : info[0].childNodes[5].innerText,
+            code : info[0].childNodes[2].innerText,
+        }
+
+        if (checkbox.checked) {
+            // 체크된 상태라면 selectData에 추가
+            this.selectData.push(selectData);
+        } else {    
+            // 체크 해제된 상태라면 selectData에서 삭제
+            this.selectData = this.selectData.filter(item => item.code !== selectData.code);
         }
         
+        console.log(this.selectData);
 
 	}
 
@@ -941,6 +1118,8 @@ MainView = class MainView extends AView
                     thisObj.removeItemClick(menuText, itemView);
                 });
 
+               
+
                 // 로컬 저장 아이템 개수만큼 카드 생성함
                 list.forEach((item, index) => {
                 
@@ -975,6 +1154,12 @@ MainView = class MainView extends AView
                     $(newCard).on('dragstart', function(e){
                         e.originalEvent.dataTransfer.setData('text/html', index);
                         e.originalEvent.dataTransfer.setData('text/plain', menuText);
+                        const cardData = {
+                            market : e.currentTarget.childNodes[1].textContent,
+                            name : e.currentTarget.childNodes[2].textContent,
+                            code : e.currentTarget.childNodes[3].textContent,
+                        }
+                        e.originalEvent.dataTransfer.setData('application/json', JSON.stringify(cardData));
                     })
 
                     $(newCard).on('click', function(){ // 카드 클릭시 해당 종목 시세정보 오픈

@@ -118,9 +118,9 @@
 
 .mkSortBtn
 {
-	position: absolute !important;
+	
 	background-color: inherit !important;
-	right: 20px !important;
+	float: right !important;
 	width: 20px !important;
 	height: 20px !important;
 	background-image: url(../Assets/sort.png) !important;

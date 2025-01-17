@@ -7,6 +7,6 @@
     "removeBtn": ".removeBtn\r\n{\r\n\tposition: absolute;\r\n\tright: 5px;\r\n\tbackground-color:transparent;\r\n\tborder: 0;\r\n\tborder-radius: 4px;\r\n\tcolor: white;\r\n\tcursor: pointer;\r\n\tbackground-image: url(Assets/free-icon-delete-7838444.png);\r\n    background-size: 16px 16px; \r\n    background-repeat: no-repeat; \r\n    background-position: left center; \r\n    padding-left: 15px; \r\n    height: 30px; \r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center; \r\n}\r\n\r\n",
     "menuCheckbox": ".menuCheckbox\r\n{\r\n\twidth: 15px;\r\n\theight: 15px;\r\n\tposition: absolute;\r\n\tleft: 0;\r\n\t\r\n}\r\n\r\n",
     "dateBtn": ".dateBtn\r\n{\r\n\t\r\n}\r\n.click{\r\n\tfont-weight: 900;\r\n\tcolor: black;\r\n\tbackground-color: grey;\r\n\tborder-radius: 50px;\r\n\t\r\n}\r\n\r\n",
-    "mkSortBtn": ".mkSortBtn\r\n{\r\n\tposition: absolute;\r\n\tbackground-color: inherit;\r\n\tright: 20px;\r\n\twidth: 20px;\r\n\theight: 20px;\r\n\tbackground-image: url(Assets/sort.png);\r\n\tbackground-size: 20px 20px;\r\n\tbackground-repeat: no-repeat;\r\n\tborder: 0;\r\n\tcursor: pointer;\r\n}\r\n\r\n"
+    "mkSortBtn": ".mkSortBtn\r\n{\r\n\t\r\n\tbackground-color: inherit;\r\n\tfloat: right;\r\n\twidth: 20px;\r\n\theight: 20px;\r\n\tbackground-image: url(Assets/sort.png);\r\n\tbackground-size: 20px 20px;\r\n\tbackground-repeat: no-repeat;\r\n\tborder: 0;\r\n\tcursor: pointer;\r\n}\r\n\r\n"
   }
 }
